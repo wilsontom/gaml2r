@@ -1,0 +1,21 @@
+Package: gaRI
+Type: Package
+Title: Extract RI data from GAML files
+Version: 0.1.0
+Authors@R: c(
+    person("Tom", "Wilson", , "tpw2@aber.ac.uk", c("aut", "cre")))
+Description: Open and parse data from a Generalized Analytical Markup Language (GAML) file containing Liquid Chromatography (LC) Refractive Index (RI) data.
+Imports:
+  magrittr,
+  xml2,
+  purrr,
+  stringr,
+  base64enc
+License: GPL (>= 3)
+Encoding: UTF-8
+RoxygenNote: 7.1.2
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    testthat (>= 3.0.0),
+    covr
+Config/testthat/edition: 3
