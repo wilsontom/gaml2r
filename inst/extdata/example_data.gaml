@@ -1,0 +1,1453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GAML version="1.20" name="220103-RI-PissTest">
+  <integrity algorithm="SHA1">141f6452bb6ea219e60121ba57d6f786c0819e1e</integrity>
+  <parameter name="component_name" label="Component name" group="GAML Generation">GAMLIO</parameter>
+  <parameter name="component_version" label="Component version" group="GAML Generation">9.7.0.1</parameter>
+  <parameter name="converter_name" label="Converter name" group="Data Conversion">Chromeleon</parameter>
+  <experiment name="Ctrl01">
+    <collectdate>2022-02-03T15:35:14Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">mu+nxks3oT8JWDm0yHaeP10730+Nl54/9n5qvHSToD8OrkfhehS6P80i2/l+6uA/1yQGgZVD6z+v
+8/3UeGnuP4aXbhKDwO4/IDEIrBza7T+RbhKDwErsP7Dz/dR4aeo/wUs3iUFg6D94PzVeuknmP7Qe
+hetROOQ/VDm0yHY+4j8tCKwcWmTgP4rtfD81Xt0/1yQGgZVD2j8VL90kBoHXPzo1XrpJDNU/cr6f
+Gi/d0j9c5dAi2/nQPzK0yHa+n84/0s73U+Olyz8ZhetRuB7JP0Y3iUFg5cY/8Shcj8L1xD+une+n
+xkvDPz1g5dAi28E/y/dT46WbwD+tyHa+nxq/P8J2vp8aL70/VGQ730+Nuz+4nxov3SS6P5xFtvP9
+1Lg/qEfhehSutz+1SQwCK4e2PxYv3SQGgbU/yvdT46WbtD/UzvdT46WzP7Lz/dR46bI/jxgEVg4t
+sj9sPQrXo3CxP3XpJjEIrLA/e2q8dJMYsD+v8/3UeOmuPxQv3SQGga0/dj81XrpJrD/ZT42XbhKr
+P+d8PzVeuqk/9qnx0k1iqD+x8/3UeOmmP78gsHJokaU/dOkmMQispD9+wMqhRbajP+HQItv5fqI/
+ROF6FK5HoT+m8dJNYhCgPxIEVg4tsp0/39Ai2/l+mj8BgZVDi2yXP3K+nxov3ZQ/4/up8dJNkj/4
+//////+PPzO0yHa+n4o/vfUoXI/ChT9IN4lBYOWAP/R+arx0k3g/EgRWDi2ybT/4qfHSTWJQPzff
+T42XblK/UDm0yHa+b7/SzvdT46V7v4ds5/up8YK/nEW28/3UiL+pcmiR7XyPv48YBFYOLZK/dhSu
+R+F6lL+tne+nxkuXvzcK16NwPZq/EgRWDi2ynb+kxks3iUGgv5NuEoPAyqG/LzMzMzMzo7/K91Pj
+pZukv7mfGi/dJKa/rZ3vp8ZLp7/yU+Olm8Sov+H7qfHSTaq/0KNwPQrXq78WWmQ730+tv7EehetR
+uK6/z01iEFg5sL/yKFyPwvWwv+l8PzVeurG/uHSTGARWsr8G16NwPQqzv37AyqFFtrO/oZvEILBy
+tL+Z76fGSze1vxHZzvdT47W/XzvfT42Xtr8uMzMzMzO3v9GjcD0K17e/yyLb+X5quL9vkxgEVg65
+v5FuEoPAyrm/icL1KFyPur+sne+nxku7v8546SYxCLy/xszMzMzMvL8SBFYOLbK9v97QItv5fr6/
+1iQGgZVDv78RrkfhehTAv6KbxCCwcsC/nkW28/3UwL8ErBxaZDvBv8AgsHJokcG/fZVDi2znwb8=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">1029</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">8.80285116525423</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">0.939756355932203</parameter>
+              <peakXvalue>4</peakXvalue>
+              <peakYvalue>0.960999999999999</peakYvalue>
+            </peak>
+            <peak number="2">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">2570</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">0.164398834745763</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">0.0218601694915254</parameter>
+              <peakXvalue>53</peakXvalue>
+              <peakYvalue>-9.78749999999999E-02</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="Ctrl02">
+    <collectdate>2022-02-03T15:36:38Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">bpMYBFYOvb+1dJMYBFa+vzCJQWDl0L6/rch2vp8av79cEFg5tMi6v3O+nxovXeA/rZ3vp8aL9j/n
+fD81Xjr7PwYCK4cWGfs/tEkMAitH+T+WxCCwcuj2PwcCK4cWWfQ/uHSTGATW8T//gJVDi+zuPwTX
+o3A9iuo/2k+Nl26S5j9mvHSTGATjP1A5tMh2vt8/+NR46SYx2j8iMQisHFrVP1DjpZvEINE/GrBy
+aJHtyj/1fmq8dJPEP+ImMQisHL4/yvdT46WbtD/yU+Olm8SoP2kSg8DKoZU/N99PjZduYr+x8/3U
+eOmWvx7b+X5qvKS/dj81XrpJrL8WL90kBoGxv6GbxCCwcrS/BdejcD0Kt79taJHtfD+5vy0zMzMz
+M7u/RTeJQWDlvL9fZmZmZma+v/oqhxbZzr+/TI2XbhKDwL9xkxgEVg7Bv1ZkO99PjcG/Zrx0kxgE
+wr8MWDm0yHbCv3K+nxov3cK/BKwcWmQ7w7//VQ4tsp3Dv/v//////8O/TbgehetRxL/1fmq8dJPE
+vwcCK4cW2cS/RQwCK4cWxb8YWmQ730/Fv6tyaJHtfMW/qUfhehSuxb8R2c73U+PFv0/jpZvEIMa/
+TbgehetRxr+1SQwCK4fGvx3b+X5qvMa/hmzn+6nxxr+EQWDl0CLHv1ePwvUoXMe/VGQ730+Nx7+9
+9Shcj8LHv+ZRuB6F68e/5CYxCKwcyL8Ng8DKoUXIvzbfT42Xbsi/XjvfT42XyL/dpZvEILDIv4Vs
+5/up8ci/RAwCK4cWyb9taJHtfD/Jv1aPwvUoXMm/6qfGSzeJyb89i2zn+6nJv5FuEoPAysm/e5VD
+i2znyb9kvHSTGATKv7ifGi/dJMq/zU1iEFg5yr/2qfHSTWLKvx8GgZVDi8q/HNv5fmq8yr/vKFyP
+wvXKv4NBYOXQIsu/1yQGgZVDy7+VxCCwcmjLv1RkO99Pjcu/PYts5/upy78msp3vp8bLvztg5dAi
+28u/j0OLbOf7y79N46WbxCDMv3Y/NV66Scy/YGZmZmZmzL9eO99PjZfMvzCJQWDl0My/WeXQItv5
+zL+tyHa+nxrNvwGsHFpkO82/gBbZzvdTzb8/tvP91HjNv5OZmZmZmc2/EgRWDi2yzb/7KocW2c7N
+v08OLbKd782/+f//////zb8NrkfhehTOv8xNYhBYOc6/S7gehetRzr9fZmZmZmbOvzTfT42Xbs6/
+3tAi2/l+zr+IwvUoXI/Ov8j3U+Olm86/cukmMQiszr+Gl24Sg8DOv/BT46WbxM6/xczMzMzMzr8=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">10.086375</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">1.82758333333333</parameter>
+              <peakXvalue>3.5</peakXvalue>
+              <peakYvalue>1.70175</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="S10_1">
+    <collectdate>2022-02-03T15:38:03Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">+NR46SYxqL+RbhKDwMqpv40YBFYOLaq/lJmZmZmZqb+AFtnO91PNPwKBlUOLjBFA7dJNYhDAIUD+
+KocW2ZYhQIwYBFYOrR1ARjeJQWBlGEDt0k1iEPgTQNf5fmq8VBBAYpHtfD+1CkCdRbbz/dQFQAgC
+K4cW2QFATw4tsp0v/T80tMh2vt/3P+unxks3ifM/Z7x0kxgE8D8d2/l+ajzqP6GbxCCwcuU/Zrx0
+kxiE4T9eO99PjZfcP62d76fGS9c/svP91Hjp0j/cpZvEILDOP/JT46WbxMg/pxxaZDvfwz/9VQ4t
+sp2/P5xFtvP91Lg/BKwcWmQ7sz9saJHtfD+tPxYv3SQGgaU/CVg5tMh2nj8q3SQGgZWTP25oke18
+P4U/tUkMAiuHZj/SzvdT46Vrvz+LbOf7qYG/g0Fg5dAii7+YxCCwcmiRv8ahRbbz/ZS/TLgehetR
+mL9/61G4HoWbv2Xn+6nx0p2//VUOLbKdn7+eRbbz/dSgvz1g5dAi26G/NbTIdr6for+DFtnO91Oj
+vyaHFtnO96O/IAaBlUOLpL/Edr6fGi+lvxMEVg4tsqW/Y5HtfD81pr+zHoXrUbimv6/Idr6fGqe/
+VGQ730+Np7/6//////+nv/R+arx0k6i/mO+nxks3qb+RbhKDwMqpv4vtfD81Xqq/MYlBYOXQqr+B
+FtnO91Orvyayne+nxqu/JIcW2c73q792PzVeukmsvxzb+X5qvKy/GIXrUbgerb/ASzeJQWCtv7v1
+KFyPwq2/Y7x0kxgErr8Lg8DKoUWuv10730+Nl66/BQIrhxbZrr8D16NwPQqvv/+AlUOLbK+/UDm0
+yHa+r78lXI/C9Siwv/ip8dJNYrC/TI2XbhKDsL8hBoGVQ4uwv6BwPQrXo7C/SDeJQWDlsL+cGi/d
+JAaxvxuF61G4HrG/RgwCK4cWsb9E4XoUrkexv5jEILByaLG/P4ts5/upsb8UBFYOLbKxv771KFyP
+wrG/51G4HoXrsb+RQ4ts5/uxv2SR7Xw/NbK/je18PzVesr9iZmZmZmayvwxYObTIdrK/i8L1KFyP
+sr/fpZvEILCyv916FK5H4bK/BtejcD0Ks79aukkMAiuzvwSsHFpkO7O/LQisHFpks7//VQ4tsp2z
+v37AyqFFtrO/0qNwPQrXs798lUOLbOezv3yVQ4ts57O/+///////s7/51HjpJjG0v6GbxCCwcrS/
+9X5qvHSTtL906SYxCKy0v8jMzMzMzLS/HLByaJHttL/GoUW28/20vxqF61G4HrW/me+nxks3tb8=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">32.940875</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">8.92732627118643</parameter>
+              <peakXvalue>3</peakXvalue>
+              <peakYvalue>8.87512499999999</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="S1_1">
+    <collectdate>2022-02-03T15:39:29Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">OQrXo3A9sr8ErBxaZDuzv9b5fmq8dLO/h2zn+6nxsr8YWmQ73w8VQJfvp8ZLp0xA7v3UeOl+WEDu
+/dR46Y5WQPEoXI/CTFJABy2yne8dTUD0fmq8dBlHQPrUeOkmUUJAUTm0yHYKPUCCFtnO9wM3QFiP
+wvUoPDJAENnO91PjLEBrPQrXo+AmQHK+nxovHSJAjRgEVg6tHECl8dJNYrAWQGoSg8DK8RFAGIXr
+UbheDEBdEFg5tGgGQBhaZDvfrwFAYGZmZmbm+z+rcmiR7fz1Pzs1XrpJTPE/qEfhehQu6z+tne+n
+xkvlPzW0yHa+n+A/nEW28/3U2T/xKFyPwvXTP4jC9Shcj84/b5MYBFYOxz8vMzMzMzPBP5oaL90k
+Brk/ahKDwMqhsT+oR+F6FK6nPxZaZDvfT50/ucqhRbbzjT/0fmq8dJNoP/R+arx0k3i/0s73U+Ol
+i79+wMqhRbaTv/R+arx0k5i/xszMzMzMnL9Q46WbxCCgvz+LbOf7qaG/NbTIdr6for8q3SQGgZWj
+vyRcj8L1KKS/dOkmMQispL9wkxgEVg6lv2kSg8DKoaW/uZ8aL90kpr8HAiuHFtmmv/5VDi2ynae/
++NR46SYxqL/wKFyPwvWov5SZmZmZmam/O2Dl0CLbqb83CtejcD2qv4eXbhKDwKq/2U+Nl24Sq7/X
+JAaBlUOrv9LO91Pjpau/IDEIrBxarL9wvp8aL92sv2xoke18P62/u/UoXI/Crb9hke18PzWuv7Ee
+hetRuK6/A9ejcD0Kr78BrBxaZDuvv/oqhxbZzq+/pMZLN4lBsL8hBoGVQ4uwv3O+nxov3bC/mu+n
+xks3sb8WL90kBoGxv5NuEoPAyrG/OzVeukkMsr85CtejcD2yv2JmZmZmZrK/i8L1KFyPsr+0HoXr
+Ubiyv7Lz/dR46bK/sMh2vp8as79Yj8L1KFyzvyrdJAaBlbO/Uzm0yHa+s798lUOLbOezv0/jpZvE
+ILS/emq8dJMYtL+jxks3iUG0v8wi2/l+arS/S42XbhKDtL/K91PjpZu0vx7b+X5qvLS/cr6fGi/d
+tL8csHJoke20v5saL90kBrW/mxov3SQGtb/Edr6fGi+1v0PhehSuR7W/GFpkO99Ptb/Edr6fGi+1
+v5nvp8ZLN7W/bmiR7Xw/tb9uaJHtfD+1vxhaZDvfT7W/bmiR7Xw/tb/v/dR46Sa1v8R2vp8aL7W/
+bmiR7Xw/tb/v/dR46Sa1v0UMAiuHFrW/cJMYBFYOtb+bGi/dJAa1v0c3iUFg5bS/Htv5fmq8tL8=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">304.0985625</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">98.059281553398</parameter>
+              <peakXvalue>3</peakXvalue>
+              <peakYvalue>97.9829999999999</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="S1_2">
+    <collectdate>2022-02-03T15:40:54Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01A////////TUA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">JocW2c73o78TBFYOLbKlv2OR7Xw/Naa/D65H4XoUpr8QrkfhejQEQJbEILByNkdAfcDKoUXEV0Ds
+0k1iEP1WQJfEILByzVJA7yhcj8LvTUDaT42XbrxHQOUmMQiszkJAHgaBlUPLPUADrBxaZJc3QPNT
+46WbrDJAiu18PzWOLUA+i2zn+2EnQBqF61G4fiJA+f////8/HUDDdr6fGh8XQCvdJAaBRRJA/VUO
+LbLdDEBZukkMAssGQKxyaJHt/AFApRxaZDtf/D+UmZmZmVn2P9OjcD0Kl/E/nXA9Ctej6z906SYx
+CKzlP209Ctej8OA/i+18PzVe2j/W+X5qvHTUP6lyaJHtfM8/z3jpJjEIyD9Q46WbxCDCPy9eukkM
+Ars//1UOLbKdsz/ZT42XbhKrP0G28/3UeKE/0qNwPQrXkz9QObTIdr5/P/R+arx0k1i/h2zn+6nx
+gr8BrBxaZDuPvx7b+X5qvJS/RAwCK4cWmb9y6SYxCKycv1WPwvUoXJ+/8ihcj8L1oL+RQ4ts5/uh
+v9tPjZduEqO/fJVDi2zno78gBoGVQ4ukv3CTGARWDqW/aRKDwMqhpb+5nxov3SSmvwtYObTIdqa/
+sfP91Hjppr+rcmiR7Xynv/r//////6e/9H5qvHSTqL+aGi/dJAapv+zSTWIQWKm/53w/NV66qb+P
+Q4ts5/upvzcK16NwPaq/icL1KFyPqr/behSuR+Gqvy0zMzMzM6u/LTMzMzMzq78rCKwcWmSrv3zA
+yqFFtqu/eGq8dJMYrL8iXI/C9Sisv3LpJjEIrKy/bpMYBFYOrb/Cdr6fGi+tvxQv3SQGga2/Y7x0
+kxgErr+zSQwCK4euv6/z/dR46a6/V7pJDAIrr7//gJVDi2yvv6QcWmQ736+/pvHSTWIQsL/61Hjp
+JjGwv3k/NV66SbC/TI2XbhKDsL916SYxCKywv3O+nxov3bC/nBov3SQGsb9xkxgEVg6xv8V2vp8a
+L7G/lZmZmZmZsb+TbhKDwMqxvxLZzvdT47G/OzVeukkMsr+N7Xw/NV6yvwxYObTIdrK/i8L1KFyP
+sr8KLbKd76eyvwgCK4cW2bK/CAIrhxbZsr+y8/3UeOmyvwbXo3A9CrO/BKwcWmQ7s79Yj8L1KFyz
+vyrdJAaBlbO/Uzm0yHa+s7+nHFpkO9+zv1EOLbKd77O/pfHSTWIQtL/51HjpJjG0v3YUrkfherS/
+yvdT46WbtL/zU+Olm8S0v/EoXI/C9bS/mxov3SQGtb9D4XoUrke1vxhaZDvfT7W/l8QgsHJotb8=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">300.5239375</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">95.1114956896551</parameter>
+              <peakXvalue>3</peakXvalue>
+              <peakYvalue>95.0667499999999</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="S10_2">
+    <collectdate>2022-02-03T16:21:11Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">r8h2vp96FsDSo3A9CncWwIDrUbgedRbA96nx0k1yFsAwXrpJDFIWwG6TGARWrgzAA6wcWmT79T+h
+m8QgsPICQA6DwMqhBfM/A6wcWmQ7t7+qR+F6FG7yv9F46SYxCADAHtv5fmp8BcCuyHa+n9oJwOIm
+MQisXA3Amu+nxksXEMCy8/3UeDkRwKBwPQrXIxLAbD0K16PgEsBBtvP91HgTwCwIrBxa9BPAsx6F
+61FYFMAkXI/C9agUwOl8PzVe6hTAbmiR7XwfFcAF16NwPUoVwI4YBFYObRXAzk1iEFiJFcD7////
+/58VwL31KFyPshXAo8ZLN4nBFcA4CtejcM0VwO/91Hjp1hXAGoXrUbjeFcDzU+Olm+QVwOh8PzVe
+6hXAqUfhehTuFcCIl24Sg/AVwL31KFyP8hXAZbx0kxj0FcAq3SQGgfUVwJsaL90k9hXAmxov3ST2
+FcB+wMqhRfYVwPEoXI/C9RXAnUW28/30FcBJYhBYOfQVwGfn+6nx8hXAhmzn+6nxFcBrPQrXo/AV
+wFEOLbKd7xXAGYXrUbjuFcAcsHJoke0VwDo1XrpJ7BXAkm4Sg8DqFcCWxCCwcugVwNKjcD0K5xXA
+DYPAyqHlFcBlvHSTGOQVwL31KFyP4hXA+dR46SbhFcBtaJHtfN8VwHCTGARW3hXAOjVeukncFcCS
+bhKDwNoVwAcCK4cW2RXA7/3UeOnWFcBHN4lBYNUVwPV+arx00xXAo8ZLN4nRFcDBSzeJQdAVwDbf
+T42XzhXAcr6fGi/NFcCtne+nxssVwFvl0CLbyRXAemq8dJPIFcBC4XoUrscVwJsaL90kxhXASWIQ
+WDnEFcC99Shcj8IVwPnUeOkmwRXAbmiR7Xy/FcDGoUW2870VwFePwvUovBXAzCLb+X66FcAHAiuH
+FrkVwEPhehSutxXAKLKd76e2FcDW+X5qvLQVwGfn+6nxshXAaRKDwMqxFcBrPQrXo7AVwKccWmQ7
+rxXAVWQ730+tFcA6NV66SawVwFm6SQwCqxXAlJmZmZmpFcAJLbKd76cVwCiyne+nphXAnUW28/2k
+FcCEQWDl0KIVwL8gsHJooRXA3qWbxCCgFcA230+Nl54VwMjMzMzMnBXArZ3vp8abFcCvyHa+n5oV
+wM5NYhBYmRXACS2yne+XFcAosp3vp5YVwIDrUbgelRXAu8qhRbaTFcATBFYOLZIVwDKJQWDlkBXA
+bmiR7XyPFcDGoUW2840VwOQmMQisjBXArZ3vp8aLFcBZukkMAosVwD6LbOf7iRXAQbbz/dSIFcA=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">27.835625</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">7.97233012820512</parameter>
+              <peakXvalue>3.5</peakXvalue>
+              <peakYvalue>2.3685</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="S09_1">
+    <collectdate>2022-02-03T16:22:35Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARAAAAAAAAACEAA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZAAAAAAAAAGEAAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAAAAAAAADBAAAAAAACAMEAAAAAAAAAxQAAAAAAA
+gDFAAAAAAAAAMkAAAAAAAIAyQAAAAAAAADNAAAAAAACAM0AAAAAAAAA0QAAAAAAAgDRAAAAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAAAAAAAgDdAAAAAAAAAOEAAAAAAAIA4
+QP///////zhAAAAAAACAOUAAAAAAAAA6QAAAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AAAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAEAAAAAQEBAAAAAAACAQEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQAAAAAAAgEJAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAEAAAAAAERAAAAAAABAREAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQAAAAAAAQEZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdAAAAAAAAASEAAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SEAAAAAAAABJQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQAAAAAAAAEpAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtAAAAAAADAS0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATEAAAAAAAMBMQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQAAAAAAAwE1AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">UDm0yHa+jz/0U+Olm8SQP2o9CtejcI0/wna+nxovjT+PGARWDi2SP8AgsHJoEfM/+yqHFtmOHUCp
+R+F6FH4kQEUMAiuHBiJAAawcWmQbHUB1FK5H4ToXQLZJDAIrhxJAfMDKoUWWDUBZukkMAqsHQAxY
+ObTI9gJALDMzMzNz/j/XJAaBlYP4P5NuEoPAyvM/ROF6FK4H8D+JwvUoXA/qP10QWDm0SOU/Qbbz
+/dR44T/Qo3A9CtfcP5BDi2zn+9c/EK5H4XoU1D9SDi2yne/QP5tFtvP91Mw/x8zMzMzMyD+/ILBy
+aJHFP/EoXI/C9cI/nkW28/3UwD82CtejcD2+P3/rUbgehbs/F1pkO99PuT+A61G4HoW3P+QmMQis
+HLY/cr6fGi/dtD9RDi2yne+zP4VBYOXQIrM/4dAi2/l+sj/lJjEIrByyP+l8PzVeurE/ROF6FK5H
+sT/yKFyPwvWwP0piEFg5tLA/opvEILBysD/4qfHSTWKwP064HoXrUbA/pMZLN4lBsD8lXI/C9Siw
+P6bx0k1iELA/+P//////rz/ReOkmMQiwP/oqhxbZzq8//VUOLbKdrz9Vj8L1KFyvP1WPwvUoXK8/
+VY/C9Shcrz//gJVDi2yvP6ud76fGS68//4CVQ4tsrz+rne+nxkuvPwGsHFpkO68/AawcWmQ7rz+r
+ne+nxkuvP1WPwvUoXK8//4CVQ4tsrz9TZDvfT42vP6lyaJHtfK8/q53vp8ZLrz8D16NwPQqvP6/z
+/dR46a4/sR6F61G4rj9dO99PjZeuP10730+Nl64/tXSTGARWrj8Lg8DKoUWuP7V0kxgEVq4/YZHt
+fD81rj9fZmZmZmauP7V0kxgEVq4/s0kMAiuHrj+1dJMYBFauPwlYObTIdq4/WxBYObTIrj9Z5dAi
+2/muP63Idr6fGq8/V7pJDAIrrz8D16NwPQqvP1nl0CLb+a4/sR6F61G4rj8HLbKd76euP7EehetR
+uK4/XTvfT42Xrj8JWDm0yHauP7NJDAIrh64/C4PAyqFFrj9jvHSTGASuP2Xn+6nx0q0/D9nO91Pj
+rT++ILByaJGtPxQv3SQGga0/viCwcmiRrT8UL90kBoGtP2o9CtejcK0/viCwcmiRrT9qPQrXo3Ct
+P8BLN4lBYK0/FlpkO99PrT/Cdr6fGi+tP8ShRbbz/aw/GrByaJHtrD/EoUW28/2sPxiF61G4Hq0/
+HNv5fmq8rD/KItv5fmqsP8oi2/l+aqw/yiLb+X5qrD8iXI/C9SisP8546SYxCKw/znjpJjEIrD8=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">33.0960625</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">10.2306153846154</parameter>
+              <peakXvalue>3.5</peakXvalue>
+              <peakYvalue>10.24625</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="S08_1">
+    <collectdate>2022-02-03T16:24:00Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">cukmMQisnL+xHoXrUbiev6TGSzeJQaC/+Knx0k1ioL+Z76fGSze1P5WZmZmZ+RFAdz81XrqxKEAx
+iUFg5egpQEc3iUFgfSVAdxSuR+EiIUBsaJHtfC8bQDo1XrpJjBVAaOf7qfESEUAasHJokQ0LQOL7
+qfHSbQVAJ4cW2c73AECL7Xw/Nd76P9gkBoGVQ/U/gxbZzvfT8D/J91PjpZvqP4DrUbgeBeU/RgwC
+K4eW4D9O46WbxCDaP8AgsHJokdQ/8P3UeOkm0D+Y76fGSzfJP8AgsHJokcM/4iYxCKwcvj9b5dAi
+2/m2P+7STWIQWLE/lsQgsHJoqT+RQ4ts5/uhP6Tx0k1iEJg/GrByaJHtjD8iXI/C9Sh8P3LpJjEI
+rEw/SDeJQWDlcL/nUbgeheuBv5SZmZmZmYm/qXJoke18j7/j+6nx0k2SvyIxCKwcWpS/vfUoXI/C
+lb+tne+nxkuXv/R+arx0k5i/O2Dl0CLbmb8vXrpJDAKbv3qVQ4ts55u/cukmMQisnL++ILByaJGd
+v7V0kxgEVp6/AawcWmQ7n7/61HjpJjGgv6BwPQrXo6C/RgwCK4cWob9BtvP91Hihv5NuEoPAyqG/
+5SYxCKwcor8330+Nl26iv9+lm8QgsKK/MV66SQwCo7+A61G4HoWjvyRcj8L1KKS/dOkmMQispL/G
+oUW28/2kv2w9CtejcKW/D65H4XoUpr9hZmZmZmamv7VJDAIrh6a/BwIrhxbZpr9ZukkMAiunv6ty
+aJHtfKe//CqHFtnOp7+k8dJNYhCov0y4HoXrUai/8lPjpZvEqL+Y76fGSzepv+qnxks3iam/O2Dl
+0CLbqb+NGARWDi2qvzXfT42Xbqq/3aWbxCCwqr8vXrpJDAKrv9ckBoGVQ6u/JrKd76fGq78gMQis
+HFqsv8bMzMzMzKy/bpMYBFYOrb/ASzeJQWCtv2Xn+6nx0q2/YZHtfD81rr9dO99PjZeuv1sQWDm0
+yK6/r/P91Hjprr8D16NwPQqvv1nl0CLb+a6/qXJoke18r79ODi2yne+vv3k/NV66SbC/TI2XbhKD
+sL8f2/l+arywvx2wcmiR7bC/cZMYBFYOsb+a76fGSzexv8NLN4lBYLG/bD0K16Nwsb/rp8ZLN4mx
+v5WZmZmZmbG/aOf7qfHSsb/lJjEIrByyvzffT42XbrK/DFg5tMh2sr+2SQwCK4eyv7QehetRuLK/
+svP91Hjpsr+wyHa+nxqzvy8zMzMzM7O/LQisHFpks79VZDvfT42zvyiyne+nxrO/pfHSTWIQtL8=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">41.97290625</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">12.9886006355932</parameter>
+              <peakXvalue>3.5</peakXvalue>
+              <peakYvalue>12.954875</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="S07_1">
+    <collectdate>2022-02-03T16:25:24Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">Fi/dJAaBpb+5nxov3SSmvwGBlUOLbKe//CqHFtnOp78330+Nl26CP209CtejEBFAfutRuB61LkA5
+CtejcH0xQEu4HoXreS1AZ+f7qfGKJ0AnhxbZzqciQGGR7Xw/hR1AXRBYObRYF0D4qfHSTXISQDK0
+yHa+Hw1Asx6F61H4BkBgO99PjRcCQJfvp8ZLd/w/V4/C9Shc9j8psp3vp4bxP2BmZmZmZus/0qNw
+PQpX5T9WZDvfT43gP0qNl24Sg9k/S42XbhKD0z9+61G4HoXNP/v//////8U/0XjpJjEIwD+KwvUo
+XI+2P19mZmZmZq4/36WbxCCwoj8330+Nl26SP5SZmZmZmWk/jxgEVg4tgr8ziUFg5dCSv4eXbhKD
+wJq/oHA9CtejoL+FQWDl0CKjv8R2vp8aL6W/W+XQItv5pr9MuB6F61Gov0C28/3UeKm/icL1KFyP
+qr8msp3vp8arv8j3U+Olm6y/GIXrUbgerb++ILByaJGtv7efGi/dJK6/XTvfT42Xrr8BrBxaZDuv
+v/1VDi2yna+/pvHSTWIQsL8jMQisHFqwv0piEFg5tLC/8ihcj8L1sL9xkxgEVg6xvxlaZDvfT7G/
+66fGSzeJsb+TbhKDwMqxv5FDi2zn+7G/up8aL90ksr+N7Xw/NV6yv2A730+Nl7K/3XoUrkfhsr8G
+16NwPQqzvwSsHFpkO7O/LQisHFpks7//VQ4tsp2zv6ccWmQ737O/T+Olm8QgtL/3qfHSTWK0v/NT
+46WbxLS/mxov3SQGtb+Z76fGSze1vxYv3SQGgbW/lJmZmZmZtb9n5/up8dK1v2W8dJMYBLa/jhgE
+Vg4ttr+1SQwCK4e2v4iXbhKDwLa/2k+Nl24St7/YJAaBlUO3v9b5fmq8dLe/qEfhehSut78nsp3v
+p8a3v/r//////7e/TLgehetRuL+ecD0K16O4v2+TGARWDrm/QuF6FK5Hub9rPQrXo3C5v78gsHJo
+kbm/Zuf7qfHSub8OrkfhehS6v+H7qfHSTbq/tnSTGARWur+0SQwCK4e6v7IehetRuLq/sPP91Hjp
+ur+DQWDl0CK7v9ckBoGVQ7u/1fl+arx0u78p3SQGgZW7v1E5tMh2vru/TeOlm8QgvL8gMQisHFq8
+v3QUrkfhery/HNv5fmq8vL/EoUW28/28v2xoke18P72/k5mZmZmZvb89i2zn+6m9v5BuEoPAyr2/
+ucqhRbbzvb8NrkfhehS+vzYK16NwPb6/X2ZmZmZmvr9dO99PjZe+vwUCK4cW2b6/rch2vp8av78=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">54.8272499999999</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">17.5389456521739</parameter>
+              <peakXvalue>3.5</peakXvalue>
+              <peakYvalue>17.49</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="S06_1">
+    <collectdate>2022-02-03T16:26:48Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">u8qhRbbzpb9b5dAi2/mmv62d76fGS6e/q3Joke18p7+dcD0K16PaP4Zs5/upeSRAo8ZLN4m5NkBv
+kxgEVm42QKpH4XoUZjJA8VPjpZtELUBz6SYxCCwnQGjn+6nxUiJAYpHtfD/1HEAd2/l+atwWQEPh
+ehSuBxJACC2yne9nDEAiMQisHFoGQDffT42XjgFAJrKd76eG+z+bGi/dJIb1P0ThehSux/A/yfdT
+46Ub6j9kke18PzXkP+ImMQisHN8/vfUoXI/C1z8S2c73U+PRPx8GgZVDi8o/BKwcWmQ7wz8E16Nw
+PQq7P2a8dJMYBLI/EdnO91PjpT8ahetRuB6VP5SZmZmZmWk/Zbx0kxgEhr9dEFg5tMiWv1A5tMh2
+vp+/LzMzMzMzo79lvHSTGASmv/R+arx0k6i/M7TIdr6fqr/MTWIQWDmsvxQv3SQGga2/s0kMAiuH
+rr/9VQ4tsp2vv/rUeOkmMbC/+Knx0k1isL/0U+Olm8Swv3GTGARWDrG/ROF6FK5Hsb9BtvP91Hix
+vz+LbOf7qbG/51G4HoXrsb+6nxov3SSyv43tfD81XrK/Ci2yne+nsr9eEFg5tMiyv4ds5/up8bK/
+BKwcWmQ7s79VZDvfT42zv1M5tMh2vrO/UQ4tsp3vs7/7//////+zvyRcj8L1KLS/96nx0k1itL8g
+BoGVQ4u0vx7b+X5qvLS/RzeJQWDltL+bGi/dJAa1vxhaZDvfT7W/Fi/dJAaBtb+UmZmZmZm1vz6L
+bOf7qbW/EdnO91Pjtb+5nxov3SS2v2FmZmZmZra/NLTIdr6ftr8HAiuHFtm2v4Zs5/up8ba/LjMz
+MzMzt7/W+X5qvHS3v33AyqFFtre/phxaZDvft7/NTWIQWDm4v8si2/l+ari/8lPjpZvEuL+aGi/d
+JAa5v+791HjpJrm/az0K16Nwub9oEoPAyqG5vztg5dAi27m/4yYxCKwcur8130+Nl266vwgtsp3v
+p7q/BgIrhxbZur/ZT42XbhK7v9ckBoGVQ7u/KwisHFpku78p3SQGgZW7v9LO91Pjpbu/UTm0yHa+
+u7+lHFpkO9+7v8546SYxCLy/99R46SYxvL/31HjpJjG8v3QUrkfhery/HNv5fmq8vL+ZGi/dJAa9
+v0HhehSuR72/aj0K16Nwvb+TmZmZmZm9vzpg5dAi272/Da5H4XoUvr9hke18PzW+vzTfT42Xbr6/
+MrTIdr6fvr9bEFg5tMi+v1nl0CLb+b6/gkFg5dAiv7//gJVDi2y/v6dH4XoUrr+/z6NwPQrXv78=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">72.5294375</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">22.772873655914</parameter>
+              <peakXvalue>3</peakXvalue>
+              <peakYvalue>22.72475</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="S05_1">
+    <collectdate>2022-02-03T16:28:12Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">7NJNYhBYqb+RbhKDwMqpv4vtfD81Xqq/h5duEoPAqr89YOXQIlvjPyAxCKwc8itAtXSTGARGPkC7
+9Shcj649QDGJQWDlVDhADoPAyqFZM0CtyHa+n6IuQJSZmZmZOShAn3A9CtcjI0AHLbKd7zceQLvK
+oUW20xdAvMqhRbbDEkDWJAaBlYMNQDo1XrpJLAdABtejcD0qAkA9i2zn+2n8P2FmZmZmJvY/LzMz
+MzMz8T/jJjEIrJzqP9b5fmq8dOQ/V7pJDAIr3z+rcmiR7XzXP6KbxCCwctE/Vo/C9ShcyT89YOXQ
+ItvBP/r//////7c/FC/dJAaBrT+5yqFFtvOdP8J2vp8aL30/Htv5fmq8hL+gm8QgsHKYvz1g5dAi
+26G/Y5HtfD81pr/nfD81Xrqpv3LpJjEIrKy/A9ejcD0Kr7/NItv5fmqwv0YMAiuHFrG/ahKDwMqh
+sb9mvHSTGASyv7h0kxgEVrK/i8L1KFyPsr+0HoXrUbiyv4ds5/up8bK/2SQGgZVDs7+rcmiR7Xyz
+v9TO91PjpbO/fsDKoUW2s7+nHFpkO9+zv6Xx0k1iELS/eD81XrpJtL/MItv5fmq0v0uNl24Sg7S/
+dOkmMQistL9HN4lBYOW0v0UMAiuHFrW/bmiR7Xw/tb/t0k1iEFi1v+qnxks3ibW/Pots5/uptb88
+YOXQItu1v+ZRuB6F67W/kEOLbOf7tb+5nxov3SS2v7d0kxgEVra/Nt9PjZdutr/epZvEILC2v10Q
+WDm0yLa/BdejcD0Kt7/YJAaBlUO3vwGBlUOLbLe//lUOLbKdt799wMqhRba3v3uVQ4ts57e/TuOl
+m8QguL/LItv5fmq4v/R+arx0k7i/x8zMzMzMuL/FoUW28/24vxmF61G4Hrm/mO+nxks3ub/BSzeJ
+QWC5v5SZmZmZmbm/53w/NV66ub/lUbgeheu5v40YBFYOLbq/i+18PzVeur9eO99PjZe6v9t6FK5H
+4bq/BNejcD0Ku7+sne+nxku7v3/rUbgehbu/0s73U+Olu7+lHFpkO9+7v6Px0k1iELy/ocZLN4lB
+vL+fm8QgsHK8v8j3U+Olm7y/xszMzMzMvL9wvp8aL928v+8oXI/C9by/l++nxks3vb8WWmQ730+9
+vz+28/3UeL2/PYts5/upvb9l5/up8dK9v7nKoUW2872/4iYxCKwcvr/g+6nx0k2+vzK0yHa+n76/
+sR6F61G4vr8uXrpJDAK/vwGsHFpkO7+/qXJoke18v78lsp3vp8a/v04OLbKd77+/e2q8dJMYwL8=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">95.8175624999999</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">30.3273707627118</parameter>
+              <peakXvalue>3</peakXvalue>
+              <peakYvalue>30.2735</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="S04_1">
+    <collectdate>2022-02-03T16:29:37Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">OQrXo3A9or/dehSuR+Giv4VBYOXQIqO/51G4HoXrob8TBFYOLXL5Pyiyne+najZA2CQGgZW3RECX
+xCCwcnRDQBvb+X5qsD9ACC2yne8vOUDdehSuR/EzQA2uR+F6jC9AF1pkO9/vKEDAILByaLEjQA/Z
+zvdTEx9A4NAi2/l+GECy8/3UeEkTQO8oXI/CVQ5Ahmzn+6nRB0AG16NwPaoCQKdH4XoULv0/bWiR
+7Xy/9j916SYxCKzxPwYCK4cWWes/66fGSzcJ5T+m8dJNYhDgPxdaZDvfT9g/WrpJDAIr0j9y6SYx
+CKzKP9tPjZduEsM/ZLx0kxgEuj916SYxCKywP9+lm8QgsKI/aj0K16NwjT+UmZmZmZlpv+unxks3
+iZG/dj81XrpJnL85CtejcD2iv2kSg8DKoaW/osZLN4lBqL8130+Nl26qv9LO91Pjpau/HNv5fmq8
+rL8UL90kBoGtvw2uR+F6FK6/WxBYObTIrr+rne+nxkuvv1NkO99Pja+/+P//////r7/61HjpJjGw
+v/ip8dJNYrC/TI2XbhKDsL8f2/l+arywv/Z+arx0k7C/TI2XbhKDsL/4qfHSTWKwv80i2/l+arC/
+H9v5fmq8sL8dsHJoke2wv8ehRbbz/bC/b2iR7Xw/sb/AILByaJGxv771KFyPwrG/EtnO91Pjsb+R
+Q4ts5/uxv+UmMQisHLK/4/up8dJNsr/h0CLb+X6yvwotsp3vp7K/tB6F61G4sr8IAiuHFtmyvwbX
+o3A9CrO/WrpJDAIrs7/ZJAaBlUOzvwKBlUOLbLO/Kt0kBoGVs78osp3vp8azv1EOLbKd77O/pfHS
+TWIQtL8kXI/C9Si0v3g/NV66SbS/oZvEILBytL+fcD0K16O0v0liEFg5tLS/HLByaJHttL9wkxgE
+Vg61v25oke18P7W/wks3iUFgtb+/ILByaJG1v2kSg8DKobW/km4Sg8DKtb86NV66SQy2v2OR7Xw/
+Nba/jO18PzVetr/g0CLb+X62v96lm8QgsLa/3HoUrkfhtr8F16NwPQq3v1m6SQwCK7e/q3Joke18
+t7/+VQ4tsp23v6hH4XoUrre/Ujm0yHa+t7+mHFpkO9+3vyWHFtnO97e/eWq8dJMYuL8hMQisHFq4
+v0qNl24Sg7i/SGIQWDm0uL9GN4lBYOW4v2+TGARWDrm/mO+nxks3ub9C4XoUrke5v2s9CtejcLm/
+lJmZmZmZub+89Shcj8K5v7rKoUW287m/4fup8dJNur8KWDm0yHa6vwgtsp3vp7q/h5duEoPAur8=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">128.130875</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">41.4738271276595</parameter>
+              <peakXvalue>3</peakXvalue>
+              <peakYvalue>41.43425</peakYvalue>
+            </peak>
+            <peak number="2">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">0.015</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">0.002875</parameter>
+              <peakXvalue>27.5</peakXvalue>
+              <peakYvalue>-6.39999999999999E-02</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="S03_1">
+    <collectdate>2022-02-03T16:31:01Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">TrgehetRoL9Z5dAi2/mev/1VDi2ynZ+/VY/C9Shcn7/nUbgeheuBPxQEVg4tIiFAY5HtfD+9RUBs
+aJHtfK1LQAktsp3v3UdAMV66SQwqQ0D7KocW2WY+QCNcj8L1EDhAsvP91HgJM0B+61G4Hh0uQEC2
+8/3UyCdAnUW28/3EIkAFAiuHFpkdQDS0yHa+TxdAme+nxktXEkC+ILByaNEMQCIxCKwcmgZAM4lB
+YOWwAUDbehSuR6H7PzBeukkMgvU/jxgEVg6t8D8CrBxaZLvpPzkK16NwveM/o/HSTWIQ3j/J91Pj
+pZvWP/4qhxbZztA/4NAi2/l+yD9E4XoUrkfBP4IW2c73U7c/wEs3iUFgrT+pcmiR7XyfP37AyqFF
+toM/M7TIdr6fer/W+X5qvHSTv74gsHJokZ2/4dAi2/l+or9uaJHtfD+lvwGBlUOLbKe/8Chcj8L1
+qL+NGARWDi2qv9lPjZduEqu/JrKd76fGq7/KItv5fmqsvyAxCKwcWqy/yPdT46WbrL8asHJoke2s
+vxiF61G4Hq2/wna+nxovrb9ukxgEVg6tv3C+nxov3ay/HNv5fmq8rL9wvp8aL92svxqwcmiR7ay/
+FlpkO99Prb9qPQrXo3Ctv8BLN4lBYK2/aj0K16Nwrb9qPQrXo3Ctv2gSg8DKoa2/Zef7qfHSrb8S
+BFYOLbKtvxIEVg4tsq2/EgRWDi2yrb9oEoPAyqGtv7v1KFyPwq2/Da5H4XoUrr9hke18PzWuv19m
+ZmZmZq6/CVg5tMh2rr8HLbKd76euv6/z/dR46a6/VY/C9Shcr79TZDvfT42vv6dH4XoUrq+/+iqH
+FtnOr7/ReOkmMQiwvyVcj8L1KLC/eT81XrpJsL93FK5H4Xqwv3XpJjEIrLC/c76fGi/dsL9IN4lB
+YOWwv8ehRbbz/bC/G4XrUbgesb/u0k1iEFixv+unxks3ibG/ahKDwMqhsb++9Shcj8Kxvzs1XrpJ
+DLK/ZJHtfD81sr9iZmZmZmayv7ZJDAIrh7K/Ci2yne+nsr8IAiuHFtmyv7Lz/dR46bK/MV66SQwC
+s78ErBxaZDuzvy0IrBxaZLO/q3Joke18s7/UzvdT46Wzvyiyne+nxrO/0qNwPQrXs7/QeOkmMQi0
+v024HoXrUbS/96nx0k1itL8gBoGVQ4u0v/NT46WbxLS/nUW28/3UtL+bGi/dJAa1v8R2vp8aL7W/
+bmiR7Xw/tb+XxCCwcmi1v2kSg8DKobW/PGDl0CLbtb8PrkfhehS2v7d0kxgEVra/XzvfT42Xtr8=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">169.160625</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">55.3883139534883</parameter>
+              <peakXvalue>3.5</peakXvalue>
+              <peakYvalue>55.355375</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="S02_1">
+    <collectdate>2022-02-03T16:32:25Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">1yQGgZVDm7/f0CLb+X6av4vtfD81Xpq/M7TIdr6fmr9Yj8L1KFzgP3lqvHSTfDdAGVpkO9/KUEBW
+ZDvfT9pRQLv1KFyPvk1AY5HtfD/BR0DTo3A9CtVCQLefGi/d0D1A9qnx0k2WN0A5CtejcKUyQCjd
+JAaBdS1AMolBYOVAJ0A330+Nl1YiQAyDwMqh5RxAUzm0yHa+FkBQ46WbxOARQN2lm8QgEAxAHtv5
+fmr8BUDFdr6fGi8BQFwQWDm0yPo/rZ3vp8bL9D8r3SQGgRXwP81NYhBYueg/EtnO91Pj4j9eO99P
+jZfcP8JLN4lBYNU/1Pl+arx0zz8fBoGVQ4vGP1e6SQwCK78/o8ZLN4lBtD9SObTIdr6nPxYv3SQG
+gZU/dhSuR+F6VD96lUOLbOeLv49Di2zn+5m/P4ts5/upob9wkxgEVg6lv1ePwvUoXKe/7NJNYhBY
+qb+Hl24Sg8Cqv9CjcD0K16u/IlyPwvUorL8gMQisHFqsv8j3U+Olm6y/xKFFtvP9rL/Cdr6fGi+t
+v2xoke18P62/bpMYBFYOrb9ukxgEVg6tv8ShRbbz/ay/xKFFtvP9rL9ukxgEVg6tv8ShRbbz/ay/
+cL6fGi/drL/GzMzMzMysv26TGARWDq2/GIXrUbgerb9saJHtfD+tv8J2vp8aL62/bGiR7Xw/rb/A
+SzeJQWCtv7v1KFyPwq2/ucqhRbbzrb+3nxov3SSuv7V0kxgEVq6/YZHtfD81rr8NrkfhehSuv7nK
+oUW2862/C4PAyqFFrr9bEFg5tMiuvwGsHFpkO6+/U2Q730+Nr7+kHFpkO9+vv3tqvHSTGLC/IzEI
+rBxasL8hBoGVQ4uwv3XpJjEIrLC/nkW28/3UsL/HoUW28/2wv0YMAiuHFrG/xXa+nxovsb8ZWmQ7
+30+xv2w9CtejcLG/Fi/dJAaBsb8/i2zn+6mxv2jn+6nx0rG/aOf7qfHSsb89YOXQItuxv5FDi2zn
++7G/up8aL90ksr/j+6nx0k2yvw6DwMqhRbK/ZJHtfD81sr9kke18PzWyv2JmZmZmZrK/i8L1KFyP
+sr+Jl24Sg8Cyv7Lz/dR46bK/hUFg5dAis7+DFtnO91OzvwKBlUOLbLO/VWQ730+Ns7+pR+F6FK6z
+v1M5tMh2vrO/pxxaZDvfs7/7//////+zv3pqvHSTGLS/+dR46SYxtL8iMQisHFq0v0uNl24Sg7S/
+n3A9CtejtL/IzMzMzMy0vxywcmiR7bS/GoXrUbgetb9uaJHtfD+1v2w9CtejcLW/aRKDwMqhtb8=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">224.38440625</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">71.4402827380952</parameter>
+              <peakXvalue>3.5</peakXvalue>
+              <peakYvalue>71.4111249999999</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="S01_3">
+    <collectdate>2022-02-03T16:33:49Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">7NJNYhBYmb/8KocW2c6Xvw2DwMqhRZa/Fi/dJAaBlb+x8/3UeAkHQDgK16NwH0hAJYcW2c7kV0D0
+fmq8dONWQBqF61G4uVJAl++nxkvTTUBhZmZmZqJHQGoSg8DKtUJAwna+nxqbPUABgZVDi2g3QBqF
+61G4fjJA/4CVQ4s0LUDaT42XbgonQIds5/upKSJAO2Dl0CKbHEDBSzeJQYAWQOUmMQisrBFA69JN
+YhC4C0ATBFYOLbIFQKbx0k1i8ABAyfdT46Vb+j8UBFYOLXL0P4jC9Shcj+8/Y5HtfD816D9SDi2y
+nW/iP1wQWDm0yNs/P4ts5/up1D9hke18PzXOP6tyaJHtfMU/69JNYhBYvT+y8/3UeOmyP25oke18
+P6U/oHA9CtejkD92FK5H4Xpkv+unxks3iZG/cukmMQisnL/h0CLb+X6iv78gsHJokaW/phxaZDvf
+p7/nfD81Xrqpvy9eukkMAqu/JrKd76fGq7/OeOkmMQisv3Y/NV66Say/IDEIrBxarL92PzVeukms
+v8oi2/l+aqy/dj81XrpJrL8iXI/C9Sisv8546SYxCKy/fMDKoUW2q7+BFtnO91Orv9X5fmq8dKu/
+1fl+arx0q7/V+X5qvHSrv9ckBoGVQ6u/gRbZzvdTq7/XJAaBlUOrvy0zMzMzM6u/gRbZzvdTq7+B
+FtnO91Orvy0zMzMzM6u/L166SQwCq7+Hl24Sg8CqvzO0yHa+n6q/4fup8dJNqr8130+Nl26qv9t6
+FK5H4aq/23oUrkfhqr/dpZvEILCqv4eXbhKDwKq/23oUrkfhqr/XJAaBlUOrv9LO91Pjpau/JrKd
+76fGq78p3SQGgZWrv3/rUbgehau/f+tRuB6Fq7/V+X5qvHSrvyndJAaBlau/fMDKoUW2q796lUOL
+bOerv8xNYhBYOay/yiLb+X5qrL/KItv5fmqsv8j3U+Olm6y/GrByaJHtrL9saJHtfD+tv2gSg8DK
+oa2/Zef7qfHSrb8P2c73U+Otv7efGi/dJK6/By2yne+nrr8HLbKd76euv1sQWDm0yK6/BQIrhxbZ
+rr8D16NwPQqvv63Idr6fGq+//VUOLbKdr7+kHFpkO9+vv04OLbKd76+/pvHSTWIQsL/61HjpJjGw
+v89NYhBYObC/IzEIrBxasL/NItv5fmqwv8v3U+Olm7C/9FPjpZvEsL9zvp8aL92wv8ehRbbz/bC/
+G4XrUbgesb9vaJHtfD+xv/D91HjpJrG/mu+nxks3sb8ZWmQ730+xv0G28/3UeLG/lZmZmZmZsb8=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">298.825</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">95.5998982558139</parameter>
+              <peakXvalue>3</peakXvalue>
+              <peakYvalue>95.5751249999999</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="Ctrl03">
+    <collectdate>2022-02-03T16:35:14Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">vfUoXI/Clb8mhxbZzveTvzffT42XbpK/ROF6FK5Hkb/4//////+Pv62d76fGS4e/XRBYObTIlr/9
+VQ4tsp2fv5waL90kBqG/RgwCK4cWob+m8dJNYhCgv2Xn+6nx0p2/JrKd76fGm787YOXQItuZv0y4
+HoXrUZi/WbpJDAIrl78Ng8DKoUWWv2W8dJMYBJa/Zbx0kxgElr9pEoPAyqGVv25oke18P5W/aRKD
+wMqhlb+5nxov3SSWv7VJDAIrh5a/CS2yne+nlr8F16NwPQqXv1m6SQwCK5e/qEfhehSul7+tne+n
+xkuXv6hH4XoUrpe/TLgehetRmL9EDAIrhxaZv49Di2zn+5m/39Ai2/l+mr8rCKwcWmSbvyJcj8L1
+KJy/HgaBlUOLnL8asHJoke2cv74gsHJokZ2/ucqhRbbznb+xHoXrUbievwGsHFpkO5+/+P//////
+n7/4qfHSTWKgv6BwPQrXo6C/SDeJQWDloL+cGi/dJAahv5rvp8ZLN6G/7tJNYhBYob+YxCCwcmih
+vz+LbOf7qaG/jxgEVg4tor/j+6nx0k2iv+HQItv5fqK/iZduEoPAor/dehSuR+Giv4MW2c73U6O/
+fsDKoUW2o798lUOLbOejv3pqvHSTGKS/emq8dJMYpL8gBoGVQ4ukvxywcmiR7aS/GFpkO99Ppb8T
+BFYOLbKlv2kSg8DKoaW/vfUoXI/Cpb+7yqFFtvOlvw2DwMqhRaa/tUkMAiuHpr9dEFg5tMimvwXX
+o3A9Cqe/AYGVQ4tsp7+rcmiR7Xynv1I5tMh2vqe//CqHFtnOp79UZDvfT42nv1I5tMh2vqe/UA4t
+sp3vp7/41HjpJjGov0y4HoXrUai/So2XbhKDqL9GN4lBYOWov+zSTWIQWKm/PYts5/upqb87YOXQ
+Itupv+MmMQisHKq/jRgEVg4tqr+JwvUoXI+qvy9eukkMAqu/LTMzMzMzq78p3SQGgZWrv9CjcD0K
+16u/IlyPwvUorL8iXI/C9Sisv8xNYhBYOay/dj81XrpJrL/KItv5fmqsv8j3U+Olm6y/HNv5fmq8
+rL8YhetRuB6tv2o9CtejcK2/EgRWDi2yrb+79Shcj8Ktv2O8dJMYBK6/X2ZmZmZmrr8HLbKd76eu
+v6/z/dR46a6/V7pJDAIrr79Vj8L1KFyvv1NkO99Pja+/+iqHFtnOr7/6KocW2c6vv1A5tMh2vq+/
+Tg4tsp3vr7+m8dJNYhCwv/rUeOkmMbC/z01iEFg5sL9OuB6F61Gwv3cUrkfherC/y/dT46WbsL8=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">0.028125</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">0.017375</parameter>
+              <peakXvalue>2.5</peakXvalue>
+              <peakYvalue>-0.011375</peakYvalue>
+            </peak>
+            <peak number="2">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">0.2614375</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">0.014825</parameter>
+              <peakXvalue>10</peakXvalue>
+              <peakYvalue>-0.02075</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="sample1_1">
+    <collectdate>2022-02-03T16:36:38Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">39Ai2/l+mr+UmZmZmZmZv/AoXI/C9Zi/9H5qvHSTmL8khxbZznfsP1q6SQwCLzBA8P3UeOn2QEDH
+oUW2889AQJ1wPQrX2ztAeD81XrpRNkDrp8ZLN8ExQLifGi/dLCxAZbx0kxhUJkBzvp8aL60hQNLO
+91Pj9RtAXzvfT40XFkDh0CLb+W4RQFrl0CLbeQtA4NAi2/meBUB3FK5H4foAQLZ0kxgElvo/MF66
+SQzC9D/VzvdT4yXwP/r//////+g/tB6F61E44z/g+6nx0k3dP9pPjZduEtY/LQisHFpk0D88YOXQ
+ItvHP4mXbhKDwMA/YWZmZmZmtj/XJAaBlUOrP9ckBoGVQ5s/tUkMAiuHdj8WL90kBoGFv1RkO99P
+jZe/9n5qvHSToL8iMQisHFqkvwOsHFpkO6e/7v3UeOkmqb+L7Xw/NV6qv4EW2c73U6u/zE1iEFg5
+rL8c2/l+arysv26TGARWDq2/bpMYBFYOrb8YhetRuB6tv26TGARWDq2/xKFFtvP9rL9ukxgEVg6t
+v8ShRbbz/ay/bpMYBFYOrb8asHJoke2svxzb+X5qvKy/yPdT46WbrL8eBoGVQ4usv3hqvHSTGKy/
+JrKd76fGq798wMqhRbarvyndJAaBlau/1fl+arx0q79/61G4HoWrv3zAyqFFtqu/f+tRuB6Fq78r
+CKwcWmSrv9LO91Pjpau/fMDKoUW2q798wMqhRbarv9LO91Pjpau/JrKd76fGq78msp3vp8arv3qV
+Q4ts56u/IlyPwvUorL8iXI/C9Sisv8546SYxCKy/epVDi2znq78msp3vp8arv8546SYxCKy/HgaB
+lUOLrL8asHJoke2svxiF61G4Hq2/aBKDwMqhrb9l5/up8dKtv7efGi/dJK6/Da5H4XoUrr8Nrkfh
+ehSuv2GR7Xw/Na6/s0kMAiuHrr9bEFg5tMiuv63Idr6fGq+/q53vp8ZLr79TZDvfT42vv/oqhxbZ
+zq+/+P//////r7+m8dJNYhCwv/rUeOkmMbC/IzEIrBxasL9MjZduEoOwv6BwPQrXo7C/c76fGi/d
+sL9xkxgEVg6xv5waL90kBrG/cZMYBFYOsb9vaJHtfD+xv8NLN4lBYLG/mMQgsHJosb/AILByaJGx
+v8AgsHJokbG/Fi/dJAaBsb/AILByaJGxv771KFyPwrG/aOf7qfHSsb/nUbgeheuxvxCuR+F6FLK/
+OQrXo3A9sr8330+Nl26yvwxYObTIdrK/4dAi2/l+sr8330+Nl26yv+HQItv5frK/4dAi2/l+sr8=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">109.950625</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">33.95645</parameter>
+              <peakXvalue>3</peakXvalue>
+              <peakYvalue>33.929</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="sample2_1">
+    <collectdate>2022-02-03T16:38:02Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">M4lBYOXQkr/w/dR46SaRv7EehetRuI6/VGQ730+Nh7+nHFpkOz8FQL31KFyPTjZAOzVeukmsQUAZ
+WmQ73zdAQGxoke18fzpA2CQGgZUrNUBiZmZmZtIwQGxoke18rypAD65H4XokJUBKYhBYObwgQLIe
+hetReBpAsfP91HjpFEBtPQrXo4AQQAyDwMqhBQpAA6wcWmR7BEANWDm0yBYAQGKR7Xw/Nfk/1vl+
+ary08z8sMzMzM7PuP+L7qfHSzec/qBxaZDtf4j8iXI/C9SjcP+3STWIQWNU/I4cW2c73zz+UmZmZ
+mZnHPwbXo3A9CsE/qEfhehSutz9XukkMAiuvP43tfD81XqI/9FPjpZvEkD9y6SYxCKxMP8ahRbbz
+/YS/h2zn+6nxkr9IYhBYObSYv2Xn+6nx0p2/nkW28/3UoL+N7Xw/NV6iv9b5fmq8dKO/IjEIrBxa
+pL8csHJoke2kv8R2vp8aL6W/xHa+nxovpb9wkxgEVg6lv8ahRbbz/aS/GoXrUbgepb9uaJHtfD+l
+v8ahRbbz/aS/Htv5fmq8pL94PzVeukmkv3pqvHSTGKS/fJVDi2zno798lUOLbOejv9KjcD0K16O/
+gxbZzvdTo7/bT42XbhKjv4VBYOXQIqO/3XoUrkfhor8ziUFg5dCiv916FK5H4aK/3XoUrkfhor+J
+l24Sg8Civ9+lm8QgsKK/iZduEoPAor/h0CLb+X6ivzffT42XbqK/4dAi2/l+or8330+Nl26iv4vC
+9Shcj6K/36WbxCCwor+Jl24Sg8Civ9+lm8QgsKK/iZduEoPAor/h0CLb+X6ivzW0yHa+n6K/N99P
+jZduor/j+6nx0k2iv43tfD81XqK/iZduEoPAor/dehSuR+Giv4ds5/up8aK/2SQGgZVDo7/W+X5q
+vHSjv4DrUbgehaO/KLKd76fGo78q3SQGgZWjv37AyqFFtqO/JFyPwvUopL98lUOLbOejv3yVQ4ts
+56O/eD81XrpJpL92FK5H4Xqkv3YUrkfheqS/dhSuR+F6pL/MItv5fmqkv8r3U+Olm6S/yMzMzMzM
+pL/GoUW28/2kvxhaZDvfT6W/bD0K16Nwpb8YWmQ730+lvxYv3SQGgaW/vfUoXI/Cpb8R2c73U+Ol
+vxHZzvdT46W/vfUoXI/Cpb+5nxov3SSmvwtYObTIdqa/YWZmZmZmpr+1SQwCK4emv7MehetRuKa/
+sfP91Hjppr9ZukkMAiunvwOsHFpkO6e/VGQ730+Np7+rcmiR7Xynv6hH4XoUrqe/Ujm0yHa+p78=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">110.41075</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">35.3635243902439</parameter>
+              <peakXvalue>3</peakXvalue>
+              <peakYvalue>35.346</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="sample3_1">
+    <collectdate>2022-02-03T16:39:26Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">DYPAyqFFlr8WL90kBoGVvxHZzvdT45W/EdnO91Pjlb/q0k1iEFjePzTfT42XDh1AqXJoke3kK0D4
+1HjpJtEqQO791HjpDiZAEK5H4XqcIUAvXrpJDOIbQD6LbOf7+RVAup8aL91EEUCJwvUoXA8LQJ1F
+tvP9NAVAx6FFtvN9AEDXJAaBlYP5P7DIdr6fmvM/KgisHFrk7T9LjZduEoPmP3/AyqFFtuA/QuF6
+FK5H2D97arx0kxjRP1vl0CLb+cY/dj81XrpJvD9ukxgEVg6tP7nKoUW2840/jxgEVg4tkr9n5/up
+8dKlvwGsHFpkO6+/sMh2vp8as79n5/up8dK1v33AyqFFtre/G7ByaJHtuL+RbhKDwMq5vwyDwMqh
+Rbq/Clg5tMh2ur9gZmZmZma6v4vtfD81Xrq/j0OLbOf7ub/qp8ZLN4m5vxuwcmiR7bi/HwaBlUOL
+uL+ixks3iUG4v33AyqFFtre/r8h2vp8at7+1SQwCK4e2v+ZRuB6F67W/l8QgsHJotb/xKFyPwvW0
+v/ep8dJNYrS/UQ4tsp3vs79VZDvfT42zvwbXo3A9CrO/36WbxCCwsr85CtejcD2yv2a8dJMYBLK/
+FARWDi2ysb8ZWmQ730+xv0YMAiuHFrG/nkW28/3UsL+gcD0K16Owv3cUrkfherC/eT81XrpJsL8l
+XI/C9Siwv04OLbKd76+/U2Q730+Nr78BrBxaZDuvvwUCK4cW2a6/sR6F61G4rr+1dJMYBFauv2O8
+dJMYBK6/Da5H4XoUrr8P2c73U+Otv7nKoUW2862/Y7x0kxgErr8NrkfhehSuvw/ZzvdT462/D9nO
+91Pjrb+5yqFFtvOtvxIEVg4tsq2/viCwcmiRrb9qPQrXo3CtvxZaZDvfT62/bGiR7Xw/rb9qPQrX
+o3Ctv2gSg8DKoa2/D9nO91Pjrb+3nxov3SSuv2GR7Xw/Na6/Y7x0kxgErr8NrkfhehSuv7v1KFyP
+wq2/D9nO91Pjrb+79Shcj8Ktv2O8dJMYBK6/Da5H4XoUrr8Lg8DKoUWuv2GR7Xw/Na6/tXSTGARW
+rr9dO99PjZeuv1sQWDm0yK6/A9ejcD0Kr78D16NwPQqvv1e6SQwCK6+/AawcWmQ7r79Vj8L1KFyv
+vwPXo3A9Cq+/V7pJDAIrr79Vj8L1KFyvv1A5tMh2vq+/+P//////r7/4//////+vv/j//////6+/
+JVyPwvUosL/PTWIQWDmwv6TGSzeJQbC/z01iEFg5sL+kxks3iUGwvyMxCKwcWrC/IQaBlUOLsL8=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">43.59684375</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">13.978421875</parameter>
+              <peakXvalue>3</peakXvalue>
+              <peakYvalue>13.947125</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="sample4_1">
+    <collectdate>2022-02-03T16:40:51Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">yiLb+X5qjL87YOXQItuJv62d76fGS4e/SDeJQWDlgL9mvHSTGITkPzTfT42Xfh9AjRgEVg5VLEDt
+/dR46b4qQHyVQ4ts7yVAoHA9CteDIUAE16NwPbobQAGBlUOL3BVAM4lBYOUwEUBeO99PjfcKQGOR
+7Xw/FQVABtejcD1qAEDDdr6fGm/5P0UMAiuHlvM/Tw4tsp3v7T8kXI/C9ajmP7Lz/dR46eA/6Hw/
+NV662D8KLbKd76fRPyNcj8L1KMg/WeXQItv5vj9sPQrXo3CxPyJcj8L1KJw/UDm0yHa+b79y6SYx
+CKycv/r//////6e/rch2vp8ar7+6nxov3SSyvyiyne+nxrO/cr6fGi/dtL8+i2zn+6m1v7mfGi/d
+JLa/OArXo3A9tr+OGARWDi22v7vKoUW287W/Pots5/uptb+Z76fGSze1v3TpJjEIrLS/pfHSTWIQ
+tL+A61G4HoWzv9tPjZduErO/4dAi2/l+sr/nUbgeheuxv5jEILByaLG/nBov3SQGsb9MjZduEoOw
+v/j//////6+/VY/C9Shcr78HLbKd76euv2Xn+6nx0q2/bpMYBFYOrb8eBoGVQ4usv3qVQ4ts56u/
+g0Fg5dAiq7/f0CLb+X6qv40YBFYOLaq/lJmZmZmZqb9C4XoUrkepv/AoXI/C9ai/SGIQWDm0qL+i
+xks3iUGov6LGSzeJQai/pPHSTWIQqL9SObTIdr6nv62d76fGS6e/WbpJDAIrp79b5dAi2/mmv1vl
+0CLb+aa/sfP91Hjppr8HAiuHFtmmvwcCK4cW2aa/XzvfT42Xpr+3dJMYBFamv7d0kxgEVqa/uZ8a
+L90kpr8Ng8DKoUWmv2FmZmZmZqa/tUkMAiuHpr8LWDm0yHamvwtYObTIdqa/C1g5tMh2pr+1SQwC
+K4emvwktsp3vp6a/XzvfT42Xpr+zHoXrUbimv10QWDm0yKa/BwIrhxbZpr8HAiuHFtmmv10QWDm0
+yKa/XRBYObTIpr+vyHa+nxqnv1m6SQwCK6e/A6wcWmQ7p79UZDvfT42nv/r//////6e/TLgehetR
+qL+gm8QgsHKov0y4HoXrUai/oJvEILByqL+ecD0K16Oov5xFtvP91Ki/8Chcj8L1qL/wKFyPwvWo
+v0QMAiuHFqm/mO+nxks3qb89i2zn+6mpvzk1XrpJDKq/jRgEVg4tqr/jJjEIrByqv40YBFYOLaq/
+4fup8dJNqr8xiUFg5dCqvy9eukkMAqu/LTMzMzMzq7/XJAaBlUOrvysIrBxaZKu/1fl+arx0q78=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">43.848125</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">14.18665625</parameter>
+              <peakXvalue>3</peakXvalue>
+              <peakYvalue>14.166125</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="sample5_1">
+    <collectdate>2022-02-03T16:42:15Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">M4lBYOXQkr/Cdr6fGi+Nv4vtfD81Xoq/rZ3vp8ZLh7/1fmq8dBPmP8ShRbbzPTtAje18PzUDU0DG
+oUW283lUQCVcj8L1NFFAFC/dJAajS0B2FK5H4QJGQMv3U+Olf0FAbpMYBFbOO0DFoUW28xU2QD+L
+bOf7iTFAn5vEILDaK0Aosp3vpx4mQLLz/dR4kSFAsPP91HjpG0DkJjEIrCwWQP4qhxbZnhFAENnO
+91MDDEAosp3vp0YGQAxYObTItgFAp0fhehQu/D8BgZVDi2z2P9OjcD0K1/E/RTeJQWBl7D+UmZmZ
+mZnmP1zl0CLb+eE/M7TIdr6f3D8d2/l+arzWP2a8dJMYBNI/tEkMAiuHzD8LWDm0yHbGP8AgsHJo
+kcE/Vo/C9Shcuz8ahetRuB61P04OLbKd768/Ujm0yHa+pz/2fmq8dJOgPxYv3SQGgZU/9H5qvHST
+iD8330+Nl25yPzffT42XblK/g0Fg5dAie79dEFg5tMiGv2GR7Xw/NY6/OzVeukkMkr9yvp8aL92U
+v7Hz/dR46Za/+NR46SYxmL/s0k1iEFiZv4eXbhKDwJq/f+tRuB6Fm79y6SYxCKycv74gsHJokZ2/
+sR6F61G4nr8BrBxaZDufv/rUeOkmMaC/9n5qvHSToL/0U+Olm8Sgv0G28/3UeKG/5SYxCKwcor81
+tMh2vp+iv9+lm8QgsKK/3XoUrkfhor+HbOf7qfGivzFeukkMAqO/20+Nl24So7+A61G4HoWjv9TO
+91PjpaO/0HjpJjEIpL/MItv5fmqkvx7b+X5qvKS/xqFFtvP9pL8YWmQ730+lv2kSg8DKoaW/DYPA
+yqFFpr+1SQwCK4emv18730+Nl6a/CS2yne+npr+vyHa+nxqnv7Hz/dR46aa/BdejcD0Kp7+tne+n
+xkunv62d76fGS6e/rZ3vp8ZLp7+vyHa+nxqnv62d76fGS6e//lUOLbKdp7+oR+F6FK6nv6hH4XoU
+rqe/qEfhehSup79QDi2yne+nv6Tx0k1iEKi/TLgehetRqL+ecD0K16Oov0hiEFg5tKi/nEW28/3U
+qL9EDAIrhxapv0LhehSuR6m/lsQgsHJoqb89i2zn+6mpv+VRuB6F66m/j0OLbOf7qb+WxCCwcmip
+vztg5dAi26m/4yYxCKwcqr/h+6nx0k2qv92lm8QgsKq/MYlBYOXQqr8vXrpJDAKrv4EW2c73U6u/
+0s73U+Olq7/OeOkmMQisv8546SYxCKy/IlyPwvUorL92PzVeukmsv3Y/NV66Say/dj81XrpJrL8=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">262.5349375</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">81.9202701612903</parameter>
+              <peakXvalue>3.5</peakXvalue>
+              <peakYvalue>81.9054999999999</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="sample6_1">
+    <collectdate>2022-02-03T16:43:53Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">wna+nxovjb9lvHSTGASGv6BwPQrXo4C/IlyPwvUofL8rCKwcWmSLPzkK16Nw5SJAjBgEVg6fTUCn
+HFpkOx5VQJsaL90k3VJAzE1iEFifTkDofD81XnBIQKXx0k1icENAhpduEoPkPkDi+6nx0ok4QGw9
+CtejfDNAyiLb+X7yLkAtMzMzM5MoQOUmMQishCNAZxKDwMoBH0Cgm8QgsKIYQEliEFg5lBNA9Knx
+0k0iD0AR2c73U8MIQBCuR+F6tANAMrTIdr5f/z9taJHtfP/4PwGBlUOL7PM/QOF6FK7H7z/Ro3A9
+ClfpPx7b+X5qPOQ/oHA9Ctcj4D8d2/l+arzZP0uNl24Sg9Q/uXSTGARW0D85NV66SQzKPwktsp3v
+p8Q/ju18PzVewD/lUbgeheu5P8wi2/l+arQ/Tg4tsp3vrz9MuB6F61GoP43tfD81XqI/h5duEoPA
+mj+PGARWDi2SP7VJDAIrh4Y/dhSuR+F6dD8AAAAAAAAAAFA5tMh2vm+/M7TIdr6fer8vMzMzMzOD
+v0y4HoXrUYi/epVDi2zni78BrBxaZDuPv5jEILByaJG/20+Nl24Sk7/K91PjpZuUv731KFyPwpW/
+sfP91Hjplr/8KocW2c6Xv/R+arx0k5i/7NJNYhBYmb83CtejcD2avy9eukkMApu/f+tRuB6Fm78m
+sp3vp8abv9ckBoGVQ5u/f+tRuB6Fm7/KItv5fmqcv2o9CtejcJ2/XTvfT42Xnr+kHFpkO9+fv6TG
+SzeJQaC/pMZLN4lBoL9Q46WbxCCgv6KbxCCwcqC/TI2XbhKDoL/2fmq8dJOgv0g3iUFg5aC/mMQg
+sHJoob+TbhKDwMqhv48YBFYOLaK/4dAi2/l+or8330+Nl26iv4vC9Shcj6K/iZduEoPAor/dehSu
+R+GivzFeukkMAqO/2SQGgZVDo78tCKwcWmSjv9TO91PjpaO/JocW2c73o78kXI/C9Sikv3g/NV66
+SaS/IAaBlUOLpL8gBoGVQ4ukvx7b+X5qvKS/Htv5fmq8pL8e2/l+arykv8jMzMzMzKS/xqFFtvP9
+pL/CSzeJQWClv25oke18P6W/xHa+nxovpb8YWmQ730+lv2kSg8DKoaW/EwRWDi2ypb+7yqFFtvOl
+v7mfGi/dJKa/Zbx0kxgEpr+7yqFFtvOlv2OR7Xw/Naa/Y5HtfD81pr8LWDm0yHamvwktsp3vp6a/
+W+XQItv5pr+rcmiR7Xynv1RkO99Pjae/Ujm0yHa+p7+mHFpkO9+nv1I5tMh2vqe//CqHFtnOp78=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">264.32946875</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">84.480713235294</parameter>
+              <peakXvalue>3.5</peakXvalue>
+              <peakYvalue>84.4723749999999</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="sample7_1">
+    <collectdate>2022-02-03T16:45:18Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">39Ai2/l+mr/OTWIQWDmUv3LpJjEIrIy/i+18PzVeir/0fmq8dJPmP5SZmZmZxThAwSCwcmh1UEAp
+sp3vp2hRQPn/////IU1ASo2XbhJhR0BsPQrXo6BCQFNkO99PpT1Ac+kmMQiYN0B/wMqhRcYyQDyL
+bOf70S1ABwIrhxaZJ0DEdr6fGp8iQIAW2c73Ux1Acb6fGi8NF0BmvHSTGBQSQHY/NV66SQxAUQ4t
+sp0PBkBmvHSTGCQBQBQv3SQGgfo/5SYxCKxc9D8TL90kBgHvPyExCKwcWuc/uHSTGARW4T8CrBxa
+ZDvZP/4qhxbZztE/z3jpJjEIyD+OQ4ts5/u9P9F46SYxCLA/cr6fGi/dlD9EDAIrhxaJv9kkBoGV
+Q6O/xszMzMzMrL89YOXQItuxv6GbxCCwcrS/OArXo3A9tr/+VQ4tsp23v/R+arx0k7i/b5MYBFYO
+ub/Ddr6fGi+5vxmF61G4Hrm/G7ByaJHtuL8d2/l+ary4v81NYhBYObi/phxaZDvft7+A61G4HoW3
+v9pPjZduEre/isL1KFyPtr+QQ4ts5/u1v0G28/3UeLW/GoXrUbgetb8e2/l+ary0v3g/NV66SbS/
+/SqHFtnOs78tCKwcWmSzvwgCK4cW2bK/OQrXo3A9sr8WL90kBoGxv5rvp8ZLN7G/nBov3SQGsb+e
+Rbbz/dSwv8v3U+Olm7C/+Knx0k1isL/PTWIQWDmwv/j//////6+//VUOLbKdr79Vj8L1KFyvvwUC
+K4cW2a6/X2ZmZmZmrr8NrkfhehSuvxQv3SQGga2/wna+nxovrb8YhetRuB6tv8ShRbbz/ay/xszM
+zMzMrL9y6SYxCKysv3QUrkfheqy/dBSuR+F6rL8gMQisHFqsvyJcj8L1KKy/0s73U+Olq7+BFtnO
+91Orv9t6FK5H4aq/3aWbxCCwqr8ztMh2vp+qv9/QItv5fqq/4fup8dJNqr85NV66SQyqv+VRuB6F
+66m/5VG4HoXrqb/lUbgeheupv5FuEoPAyqm/O2Dl0CLbqb+RbhKDwMqpv5FuEoPAyqm/lJmZmZmZ
+qb/nfD81Xrqpv+VRuB6F66m/PYts5/upqb87YOXQItupv0C28/3UeKm/QLbz/dR4qb/qp8ZLN4mp
+v+qnxks3iam/QLbz/dR4qb+UmZmZmZmpv+d8PzVeuqm/lJmZmZmZqb/nfD81Xrqpv+VRuB6F66m/
+jRgEVg4tqr83CtejcD2qv4vtfD81Xqq/icL1KFyPqr/dpZvEILCqv9t6FK5H4aq/23oUrkfhqr8=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">222.5915</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">69.6597628205128</parameter>
+              <peakXvalue>3.5</peakXvalue>
+              <peakYvalue>69.6352499999999</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="sample8_1">
+    <collectdate>2022-02-03T16:46:42Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">YZHtfD81jr+99Shcj8KFv8ahRbbz/YS/51G4HoXrgb8T2c73U+PQPxQEVg4t/jFAkpmZmZnpTkAG
+16NwPcVRQD628/3UQE5ATLgehetZSEDnUbgehWlDQMXMzMzM5D5A1fl+aryUOEDzU+Olm5AzQMOh
+RbbzHS9AZbx0kxisKED9KocW2X4jQP+AlUOLvB5Ab5MYBFYuGEAe2/l+avwSQHC+nxovvQ1ABwIr
+hxY5B0Bo5/up8RICQBQv3SQGAfw/2k+Nl26S9T/8/////3/wP8WhRbbz/eg/LzMzMzOz4j8KWDm0
+yHbbPzW0yHa+n9M/bpMYBFYOyz8CgZVDi2zBP6Xx0k1iELQ/mMQgsHJooT/0fmq8dJNIv9LO91Pj
+pZu/TLgehetRqL/4//////+vvzOJQWDl0LK/nUW28/3UtL+OGARWDi22v9pPjZduEre/qEfhehSu
+t797lUOLbOe3v/r//////7e/e5VDi2znt7/+VQ4tsp23v9gkBoGVQ7e/sx6F61G4tr84CtejcD22
+v731KFyPwrW/RQwCK4cWtb/1fmq8dJO0v3g/NV66SbS/fsDKoUW2s78tCKwcWmSzv14QWDm0yLK/
+DoPAyqFFsr8S2c73U+Oxv5WZmZmZmbG/mu+nxks3sb9KYhBYObSwv3k/NV66SbC/0XjpJjEIsL9T
+ZDvfT42vv1sQWDm0yK6/tXSTGARWrr9jvHSTGASuv7v1KFyPwq2/bGiR7Xw/rb8c2/l+arysv8xN
+YhBYOay/JrKd76fGq7/XJAaBlUOrv9lPjZduEqu/MYlBYOXQqr83CtejcD2qvzk1XrpJDKq/O2Dl
+0CLbqb89i2zn+6mpv+VRuB6F66m/PYts5/upqb+WxCCwcmipv0C28/3UeKm/mhov3SQGqb/0fmq8
+dJOov/ap8dJNYqi/TLgehetRqL+ixks3iUGov6Tx0k1iEKi/qEfhehSup7+tne+nxkunv/5VDi2y
+nae//CqHFtnOp7+mHFpkO9+nv6Tx0k1iEKi/UA4tsp3vp7+oR+F6FK6nv6hH4XoUrqe/Ujm0yHa+
+p7/+VQ4tsp2nvwGBlUOLbKe/q3Joke18p78DrBxaZDunv62d76fGS6e/q3Joke18p79UZDvfT42n
+v62d76fGS6e/q3Joke18p78BgZVDi2ynvwGBlUOLbKe/AYGVQ4tsp79Xj8L1KFynv6hH4XoUrqe/
+TuOlm8QgqL/0fmq8dJOov5jvp8ZLN6m/lsQgsHJoqb89i2zn+6mpv+d8PzVeuqm/OTVeukkMqr8=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">223.68753125</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">71.0991907894736</parameter>
+              <peakXvalue>3.5</peakXvalue>
+              <peakYvalue>71.0818749999999</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+  <experiment name="Ctrl04">
+    <collectdate>2022-02-03T16:48:06Z</collectdate>
+    <parameter name="type" alias="SampleType" label="Type" group="Injection">SAMPLE</parameter>
+    <trace name="RI_1" technique="CHROM">
+      <parameter name="detector_maximum_value" alias="detector_maximum_value" label="detector">268435.455875</parameter>
+      <parameter name="detector_minimum_value" alias="detector_minimum_value" label="detector">-268435.455875</parameter>
+      <Xdata label="Seconds" units="SECONDS" valueorder="ORDERED">
+        <values byteorder="INTEL" format="FLOAT64" numvalues="121">AAAAAAAAAAAAAAAAAADgPwAAAAAAAPA/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAARA////////B0AA
+AAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAUQAAAAAAAABZA////////F0AAAAAAAAAaQAAA
+AAAAABxAAAAAAAAAHkAAAAAAAAAgQAAAAAAAACFAAAAAAAAAIkAAAAAAAAAjQAAAAAAAACRAAAAA
+AAAAJUAAAAAAAAAmQAAAAAAAACdAAAAAAAAAKEAAAAAAAAApQAAAAAAAACpAAAAAAAAAK0AAAAAA
+AAAsQAAAAAAAAC1AAAAAAAAALkABAAAAAAAvQAEAAAAAADBAAAAAAACAMEABAAAAAAAxQAAAAAAA
+gDFAAQAAAAAAMkAAAAAAAIAyQAEAAAAAADNAAAAAAACAM0ABAAAAAAA0QAAAAAAAgDRAAQAAAAAA
+NUAAAAAAAIA1QAAAAAAAADZAAAAAAACANkAAAAAAAAA3QAEAAAAAgDdAAAAAAAAAOEABAAAAAIA4
+QAAAAAAAADlAAQAAAACAOUAAAAAAAAA6QAEAAAAAgDpAAAAAAAAAO0ABAAAAAIA7QAAAAAAAADxA
+AQAAAACAPEAAAAAAAAA9QAAAAAAAgD1AAAAAAAAAPkAAAAAAAIA+QP///////z5AAAAAAACAP0AA
+AAAAAABAQAAAAAAAQEBA//////9/QEAAAAAAAMBAQAAAAAAAAEFAAAAAAABAQUD//////39BQAAA
+AAAAwEFAAAAAAAAAQkAAAAAAAEBCQP//////f0JAAAAAAADAQkAAAAAAAABDQAAAAAAAQENAAAAA
+AACAQ0AAAAAAAMBDQAAAAAAAAERA//////8/REAAAAAAAIBEQAAAAAAAwERAAAAAAAAARUD/////
+/z9FQAAAAAAAgEVAAAAAAADARUAAAAAAAABGQP//////P0ZAAAAAAACARkAAAAAAAMBGQAAAAAAA
+AEdAAAAAAABAR0AAAAAAAIBHQAAAAAAAwEdA////////R0AAAAAAAEBIQAAAAAAAgEhAAAAAAADA
+SED///////9IQAAAAAAAQElAAAAAAACASUAAAAAAAMBJQP///////0lAAAAAAABASkAAAAAAAIBK
+QAAAAAAAwEpAAAAAAAAAS0AAAAAAAEBLQAAAAAAAgEtA//////+/S0AAAAAAAABMQAAAAAAAQExA
+AAAAAACATED//////79MQAAAAAAAAE1AAAAAAABATUAAAAAAAIBNQP//////v01AAAAAAAAATkA=
+        </values>
+        <Ydata label="µRIU" units="MILLIVOLTS">
+          <values byteorder="INTEL" format="FLOAT64" numvalues="121">jxgEVg4tkr9y6SYxCKyMv/wqhxbZzoe/bmiR7Xw/hb9y6SYxCKx8v0QMAiuHFok/XTvfT42Xnj8r
+CKwcWmSbP9b5fmq8dJM/O2Dl0CLbiT8ztMh2vp96P3YUrkfhelQ/lJmZmZmZab/SzvdT46V7v4ds
+5/up8YK/XRBYObTIhr9MuB6F61GIv+zSTWIQWIm/lJmZmZmZib87YOXQItuJv4NBYOXQIou/cukm
+MQisjL9hke18PzWOvwlYObTIdo6/+P//////j79Q46WbxCCQv6BwPQrXo5C/8P3UeOkmkb/nUbge
+heuRv48YBFYOLZK/LzMzMzMzk78mhxbZzveTvyIxCKwcWpS/yvdT46WblL/CSzeJQWCVvxHZzvdT
+45W/XRBYObTIlr8F16NwPQqXv10QWDm0yJa/XRBYObTIlr9UZDvfT42Xv1RkO99PjZe/UA4tsp3v
+l7+oR+F6FK6Xv6hH4XoUrpe/UA4tsp3vl79IYhBYObSYv0QMAiuHFpm/j0OLbOf7mb8vXrpJDAKb
+v4NBYOXQIpu/g0Fg5dAim78msp3vp8abvyayne+nxpu/dj81XrpJnL/KItv5fmqcvx4GgZVDi5y/
+znjpJjEInL92PzVeukmcvxqwcmiR7Zy/wna+nxovnb++ILByaJGdv7nKoUW2852/ucqhRbbznb9h
+ke18PzWev7V0kxgEVp6/sR6F61G4nr+xHoXrUbievwUCK4cW2Z6/VY/C9Shcn7/4//////+fv/rU
+eOkmMaC/pMZLN4lBoL9MjZduEoOgv064HoXrUaC/TrgehetRoL/2fmq8dJOgv55FtvP91KC/8P3U
+eOkmob/pfD81Xrqhvzs1XrpJDKK/OQrXo3A9or8330+Nl26ivzW0yHa+n6K/36WbxCCwor81tMh2
+vp+iv9+lm8QgsKK/M4lBYOXQor8ziUFg5dCivy8zMzMzM6O/LzMzMzMzo78q3SQGgZWjv9KjcD0K
+16O/zk1iEFg5pL8gBoGVQ4ukv3K+nxov3aS/bmiR7Xw/pb/CSzeJQWClvxYv3SQGgaW/aRKDwMqh
+pb9n5/up8dKlvxHZzvdT46W/aRKDwMqhpb8TBFYOLbKlv2fn+6nx0qW/Zbx0kxgEpr8Ng8DKoUWm
+v18730+Nl6a/BwIrhxbZpr+vyHa+nxqnvwXXo3A9Cqe/V4/C9Shcp79Xj8L1KFynvwGBlUOLbKe/
+VGQ730+Np79SObTIdr6nv/wqhxbZzqe/phxaZDvfp7+mHFpkO9+nv/r//////6e/qEfhehSup78=
+          </values>
+          <peaktable name="Peaks Table">
+            <peak name="Component 1" number="1">
+              <parameter name="Peak_Type" alias="PeakType" label="Type" group="Peak">15</parameter>
+              <parameter name="Peak_Area" alias="PeakArea" label="Area" group="Peak">0.2054375</parameter>
+              <parameter name="Peak_Height" alias="PeakHeight" label="Height" group="Peak">0.0483952702702702</parameter>
+              <peakXvalue>3</peakXvalue>
+              <peakYvalue>0.029875</peakYvalue>
+            </peak>
+          </peaktable>
+        </Ydata>
+      </Xdata>
+    </trace>
+  </experiment>
+</GAML>
