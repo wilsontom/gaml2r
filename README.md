@@ -1,6 +1,6 @@
 # gaRI
 
- [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental) [![R-CMD-check](https://github.com/wilsontom/gaRI/workflows/R-CMD-check/badge.svg)](https://github.com/wilsontom/gaRI/actions) 
+ [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental) [![R-CMD-check](https://github.com/wilsontom/gaRI/workflows/R-CMD-check/badge.svg)](https://github.com/wilsontom/gaRI/actions) ![License](https://img.shields.io/badge/license-GNU%20GPL%20v3.0-blue.svg "GNU GPL v3.0") 
  
  > **g**eneralized **a**nalytical markup manguage: **R**efractive **I**ndex
  
