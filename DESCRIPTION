@@ -1,10 +1,10 @@
-Package: gaRI
+Package: gamlr
 Type: Package
-Title: Extract RI data from GAML files
+Title: Parse GAML Files
 Version: 0.1.0
 Authors@R: c(
     person("Tom", "Wilson", , "tpw2@aber.ac.uk", c("aut", "cre")))
-Description: Open and parse data from a Generalized Analytical Markup Language (GAML) file containing Liquid Chromatography (LC) Refractive Index (RI) data.
+Description: Open and parse data from a Generalized Analytical Markup Language (GAML) files.
 Imports:
   magrittr,
   xml2,
