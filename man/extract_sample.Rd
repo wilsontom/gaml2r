@@ -10,11 +10,12 @@ extract_sample(x)
 \item{x}{a \code{xml2} nodeset for \code{experiment} blocks}
 }
 \value{
-a list of three elements
+a list of four elements
 \itemize{
-\item \code{sampleName} a character string of the sample name
+\item \code{samplename} a character string of the sample name
+\item \code{samplename} a character timestamp
 \item \code{time} a numeric vector of retention time
-\item \code{RI} a numeric vector of refractive index
+\item \code{value} a numeric vector of detector response
 }
 }
 \description{

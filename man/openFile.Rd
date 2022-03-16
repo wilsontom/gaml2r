@@ -4,13 +4,15 @@
 \alias{openFile}
 \title{Open GAML File}
 \usage{
-openFile(gaml_file)
+openFile(gaml_file, output = "list")
 }
 \arguments{
 \item{gaml_file}{a \code{.gaml} file}
+
+\item{output}{a character string of either \code{list} (default) of \code{tbl_df}}
 }
 \value{
-a nested list of \code{sampleName}, \code{time} and \code{RI} for each sample in the \code{GAML} file.
+if \code{output = list} then a nested list is returned. If \code{output = tbl_df} then all data is returned in a single long format \code{tbl_df}
 }
 \description{
 Open and extract data from a GAML file containing High Performance Liquid Chromatography (HPLC) Refractive Index (RI) data
