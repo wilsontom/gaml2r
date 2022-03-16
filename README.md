@@ -6,7 +6,7 @@
  ### Getting Started
  
  ```r
- remotes::install_github('wilsontom/gaRI')
+ remotes::install_github('wilsontom/gamlr')
  ```
  
   Then to open a GAML file simply use the `open_file` function;
