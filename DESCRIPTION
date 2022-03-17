@@ -10,7 +10,9 @@ Imports:
   xml2,
   purrr,
   stringr,
-  base64enc
+  base64enc,
+  dplyr,
+  tibble
 License: GPL (>= 3)
 Encoding: UTF-8
 RoxygenNote: 7.1.2
