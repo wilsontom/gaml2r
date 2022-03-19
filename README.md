@@ -1,6 +1,6 @@
 # gaml2r
 
- [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental) [![R-CMD-check](https://github.com/wilsontom/gamlr/workflows/R-CMD-check/badge.svg)](https://github.com/wilsontom/gamlr/actions) [![codecov](https://codecov.io/gh/wilsontom/gamlr/branch/master/graph/badge.svg?token=NHwjPwgbAR)](https://codecov.io/gh/wilsontom/gamlr) ![License](https://img.shields.io/badge/license-GNU%20GPL%20v3.0-blue.svg "GNU GPL v3.0") 
+ [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental) [![R-CMD-check](https://github.com/wilsontom/gaml2r/workflows/R-CMD-check/badge.svg)](https://github.com/wilsontom/gaml2r/actions) [![codecov](https://codecov.io/gh/wilsontom/gaml2r/branch/master/graph/badge.svg?token=NHwjPwgbAR)](https://codecov.io/gh/wilsontom/gaml2r) ![License](https://img.shields.io/badge/license-GNU%20GPL%20v3.0-blue.svg "GNU GPL v3.0") 
  
  
  ### Getting Started
