@@ -1,4 +1,4 @@
-Package: gamlr
+Package: gaml2r
 Type: Package
 Title: Parse GAML Files
 Version: 0.1.0
