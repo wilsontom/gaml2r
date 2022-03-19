@@ -1,7 +1,7 @@
 test_that("extract", {
 
   test_file <-
-    system.file('extdata/example_data_ri.gaml', package = 'gamlr')
+    system.file('extdata/example_data_ri.gaml', package = 'gaml2r')
 
   open_file <- openFile(test_file)
 

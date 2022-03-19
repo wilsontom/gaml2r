@@ -1,4 +1,4 @@
 library(testthat)
-library(gamlr)
+library(gaml2r)
 
-test_check("gamlr")
+test_check("gaml2r")
