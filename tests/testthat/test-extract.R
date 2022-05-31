@@ -18,5 +18,8 @@ test_that("extract", {
   expect_true(is.vector(open_file[[1]]$value))
   expect_true(is.numeric(open_file[[1]]$value))
 
+  expect_true(is.character(get_sha1(test_file)))
+  expect_true(tibble::is_tibble(get_parameters(test_file)))
+
 
 })
