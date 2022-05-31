@@ -17,3 +17,4 @@ a decoded vector
 \description{
 Decode Base 64 Arrays
 }
+\keyword{internal}
