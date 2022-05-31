@@ -12,9 +12,12 @@ openFile <- function(gaml_file, output = 'list')
 {
   if (tools::file_ext(gaml_file) != 'gaml')
   {
+    message(crayon::bold(
+      crayon::yellow(cli::symbol$warning, "input file must be .gaml")
+    ))
+    return(invisible(NULL))
 
   }
-
 
   xmlDoc <- xml2::read_xml(gaml_file)
 
