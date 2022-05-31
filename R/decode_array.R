@@ -3,7 +3,7 @@
 #' @param x a `base64` encoded character vector
 #' @param size a numeric value of byte size to use (default is `8`)
 #' @return a decoded vector
-#'
+#' @keywords internal
 #' @export
 
 decode_array <- function(x, size = 8)

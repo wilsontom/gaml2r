@@ -7,13 +7,12 @@
 #'   * `time` a numeric vector of retention time
 #'   * `value` a numeric vector of detector response
 #'
-#' @export
+#' @keywords internal
 #' @importFrom magrittr %>%
 
 extract_sample <- function(x)
 {
   xnodeset <- xml2::xml_children(x)
-
 
   sample_name <- xml2::xml_attrs(x)[['name']]
 
@@ -28,7 +27,7 @@ extract_sample <- function(x)
 
   rt_raw <- stringr::str_remove(rt_tmp, '\n       ') %>% trimws()
 
-abs_tmp <-
+  abs_tmp <-
     chrom_xml[[1]] %>% xml2::xml_contents() %>% xml2::xml_text()
 
   abs_raw <- stringr::str_remove(abs_tmp, '\n       ') %>% trimws()
