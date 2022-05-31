@@ -1,7 +1,7 @@
 Package: gaml2r
 Type: Package
 Title: Parse GAML Files
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(
     person("Tom", "Wilson", , "tpw2@aber.ac.uk", c("aut", "cre")))
 Description: Open and parse data from a Generalized Analytical Markup Language (GAML) files.
@@ -12,7 +12,9 @@ Imports:
   stringr,
   base64enc,
   dplyr,
-  tibble
+  tibble,
+  cli,
+  crayon
 License: GPL (>= 3)
 Encoding: UTF-8
 RoxygenNote: 7.1.2
