@@ -36,7 +36,7 @@ extract_sample <- function(x)
   abs <- decode_array(abs_raw)
 
   return(list(
-    samplename = sample_name,
+    sample_name = sample_name,
     datestamp = collect_date,
     time = rt,
     value = abs
