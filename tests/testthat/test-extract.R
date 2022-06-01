@@ -10,7 +10,7 @@ test_that("extract", {
   length_check <- sapply(open_file, length)
   expect_true(all(length_check == 4))
 
-  expect_true(is.character(open_file[[1]]$samplename))
+  expect_true(is.character(open_file[[1]]$sample_name))
 
   expect_true(is.vector(open_file[[1]]$time))
   expect_true(is.numeric(open_file[[1]]$time))
