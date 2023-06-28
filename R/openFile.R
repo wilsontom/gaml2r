@@ -4,10 +4,11 @@
 #'
 #' @param gaml_file a `.gaml` file
 #' @param output a character string of either `list` (default) of `tbl_df`
-#' @param include_injection_info; logical (default = `FALSE`). If `TRUE` sample injection information is also included
+#' @param include_injection_info logical (default = `FALSE`). If `TRUE` sample injection information is also included
 #' @return if `output = list` then a nested list is returned. If `output = tbl_df` then all data is returned in a single long format `tbl_df`
 #'
 #' @export
+#' @importFrom tidyr pivot_wider
 
 openFile <- function(gaml_file, output = 'list', include_injection_info = FALSE)
 {
