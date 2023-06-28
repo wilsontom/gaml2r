@@ -4,12 +4,14 @@
 \alias{openFile}
 \title{Open GAML File}
 \usage{
-openFile(gaml_file, output = "list")
+openFile(gaml_file, output = "list", include_injection_info = FALSE)
 }
 \arguments{
 \item{gaml_file}{a \code{.gaml} file}
 
 \item{output}{a character string of either \code{list} (default) of \code{tbl_df}}
+
+\item{include_injection_info;}{logical (default = \code{FALSE}). If \code{TRUE} sample injection information is also included}
 }
 \value{
 if \code{output = list} then a nested list is returned. If \code{output = tbl_df} then all data is returned in a single long format \code{tbl_df}

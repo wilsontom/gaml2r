@@ -11,10 +11,13 @@
 Then to open a GAML file simply use the `open_file` function;
 
 ``` r
-myData <- gaml2r::openFile('my_file.gaml', output = 'list')
+myData <- gaml2r::openFile('my_file.gaml', output = 'list', include_injection_info = FALSE)
 ```
 
 Using `output = 'list'` will return a list for each sample, where `output = 'tbl_df'` then all the data is returned in long format, as a tibble.
+
+If the `gaml` file has been created using custom export options (to include the sample injection properties), then specifying `include_injection_info = TRUE` will output these values alongside the exported data. 
+
 
 The SHA1 Integrity Algorithm for a GAML file can be retrieved using the following function;
 
