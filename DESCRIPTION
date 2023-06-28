@@ -14,7 +14,8 @@ Imports:
   dplyr,
   tibble,
   cli,
-  crayon
+  crayon,
+  tidyr
 License: GPL (>= 3)
 Encoding: UTF-8
 RoxygenNote: 7.2.3
