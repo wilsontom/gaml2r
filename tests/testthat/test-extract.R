@@ -46,5 +46,14 @@ test_that("extract", {
   expect_true(tibble::is_tibble(get_parameters(test_file)))
 
 
+  expect_message(openFile('test.txt', include_injection_info = TRUE))
+
+
+  open_file_df <- openFile(test_file, output = 'tbl_df')
+
+  expect_true(ncol(open_file_df) == 4)
+  expect_true(tibble::is_tibble(open_file_df))
+
+
 
 })
