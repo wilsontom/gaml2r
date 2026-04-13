@@ -2,8 +2,9 @@ Package: gaml2r
 Type: Package
 Title: Parse GAML Files
 Version: 0.1.3
-Authors@R: c(
-    person("Tom", "Wilson", , "tpw2@aber.ac.uk", c("aut", "cre")))
+Author: Tom Wilson [aut, cre]
+Maintainer: Tom Wilson <tpw2@aber.ac.uk>
+Authors@R: person("Tom", "Wilson", email = "tpw2@aber.ac.uk", role = c("aut", "cre"))
 Description: Open and parse data from a Generalized Analytical Markup Language (GAML) files.
 Imports:
   magrittr,
@@ -21,6 +22,5 @@ Encoding: UTF-8
 RoxygenNote: 7.3.2
 Roxygen: list(markdown = TRUE)
 Suggests: 
-    testthat (>= 3.0.0),
-    covr
+    testthat (>= 3.0.0)
 Config/testthat/edition: 3
