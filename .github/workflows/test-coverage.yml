@@ -11,11 +11,15 @@ name: test-coverage
 jobs:
   test-coverage:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: r-lib/actions/setup-r@v2
         with:
@@ -28,23 +32,66 @@ jobs:
 
       - name: Test coverage
         run: |
-          covr::codecov(
-            quiet = FALSE,
-            clean = FALSE,
-            install_path = file.path(Sys.getenv("RUNNER_TEMP"), "package")
-          )
+          coverage <- covr::package_coverage(quiet = FALSE)
+          percent <- round(covr::percent_coverage(coverage))
+          cat("Coverage:", percent, "%\n")
+
+          if (percent >= 90) {
+            color <- "brightgreen"
+          } else if (percent >= 80) {
+            color <- "green"
+          } else if (percent >= 70) {
+            color <- "yellowgreen"
+          } else if (percent >= 60) {
+            color <- "yellow"
+          } else if (percent >= 50) {
+            color <- "orange"
+          } else {
+            color <- "red"
+          }
+
+          writeLines(as.character(percent), "coverage_percent.txt")
+          writeLines(color, "coverage_color.txt")
         shell: Rscript {0}
 
-      - name: Show testthat output
-        if: always()
+      - name: Generate coverage badge
         run: |
-          ## --------------------------------------------------------------------
-          find ${{ runner.temp }}/package -name 'testthat.Rout*' -exec cat '{}' \; || true
+          COVERAGE=$(cat coverage_percent.txt)
+          COVERAGE_COLOR=$(cat coverage_color.txt)
+
+          echo "Coverage: $COVERAGE%"
+          echo "Color: $COVERAGE_COLOR"
+
+          mkdir -p badges
+          curl -fsSL "https://raw.githubusercontent.com/pachadotdev/ghacoveragebadge/refs/heads/main/badges/${COVERAGE_COLOR}.svg" > badges/coverage.svg
+          sed -i "s/{{ COVERAGE }}/${COVERAGE}/g" badges/coverage.svg
+
+      - name: Show testthat output
+        if: failure()
+        run: |
+          find "${RUNNER_TEMP:-.}" -name 'testthat.Rout*' -exec cat '{}' \; || true
         shell: bash
 
-      - name: Upload test results
-        if: failure()
-        uses: actions/upload-artifact@v3
-        with:
-          name: coverage-test-failures
-          path: ${{ runner.temp }}/package
+      - name: Commit coverage badge
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          cp badges/coverage.svg /tmp/coverage.svg
+
+          git checkout -B coverage
+          git rm -rf . || true
+
+          mkdir -p badges
+          cp /tmp/coverage.svg badges/coverage.svg
+          git add badges/coverage.svg
+
+          if ! git diff --staged --quiet; then
+            git commit -m "Update coverage badge"
+            git push --force origin coverage
+          else
+            echo "No changes to commit"
+          fi
+
+          git checkout "${GITHUB_REF_NAME}"
