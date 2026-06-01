@@ -1,7 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^\.github$
-^codecov\.yml$
 ^\.git$
 ^\.gitignore$
 ^\.\.[Rr]check$
