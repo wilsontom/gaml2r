@@ -4,3 +4,5 @@
 ^\.git$
 ^\.gitignore$
 ^\.\.[Rr]check$
+^.*\.[Rr]check$
+^.*\.tar\.gz$
